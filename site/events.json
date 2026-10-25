@@ -45,6 +45,182 @@
  "events": [
   {
    "type": "exhibition",
+   "title": "From Gerhard Richter to Mary Heilmann – Abstract Art from Private Collections and the Museum’s Holdings",
+   "start": "2024-02-03",
+   "end": "2024-04-28",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/from-gerhard-richter-to-mary-heilmann/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Michael E. Smith",
+   "start": "2024-02-03",
+   "end": "2024-04-28",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/michael-e-smith/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Bienvenue! – Masterpieces by Cézanne, Van Gogh, and Manet Return to Winterthur",
+   "start": "2024-03-23",
+   "end": "2025-01-05",
+   "venue": "kmw-flora",
+   "url": "https://www.kmw.ch/en/exhibition/bienvenue/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Marcel van Eeden – The Villa",
+   "start": "2024-09-21",
+   "end": "2025-03-23",
+   "venue": "kmw-flora",
+   "url": "https://www.kmw.ch/en/exhibition/marcel-van-eeden/"
+  },
+  {
+   "type": "exhibition",
+   "title": "December Exhibition – Focus 2024",
+   "start": "2024-11-30",
+   "end": "2025-01-05",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/december-exhibition-focus-2024/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Passing Through – The Collection as an Intermediate Stop: From Monica Bonvicini to Karin Sander",
+   "start": "2025-02-01",
+   "end": "2025-04-27",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/durchzug/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Cast in a New Light – Reopening with Masterpieces from Friedrich to Hodler with Interventions by Koenraad Dedobbeleer",
+   "start": "2025-03-01",
+   "end": "2025-09-07",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/einleuchten/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Pierre-Louis Bouvier – Et ses amis",
+   "start": "2025-03-01",
+   "end": "2025-09-07",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/pierre-louis-bouvier/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Félix Vallotton – Illusions perdues",
+   "start": "2025-04-12",
+   "end": "2025-09-07",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/felix-vallotton/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Re:Wind – Video Art from Carolee Schneemann to Zilla Leutenegger",
+   "start": "2025-05-24",
+   "end": "2025-08-10",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/rewind/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Tony Oursler – Hoisted from the Pit",
+   "start": "2025-05-24",
+   "end": "2025-08-10",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/tony-oursler/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Lorenza Longhi – Fourteenth Manor Art Prize of the Canton of Zurich",
+   "start": "2025-09-05",
+   "end": "2025-11-09",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/lorenza-longhi/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Virginia Overton – Material Girl",
+   "start": "2025-09-05",
+   "end": "2025-11-09",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/virginia-overton/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Nedko Solakov – Being Vallotton",
+   "start": "2025-09-27",
+   "end": "2026-03-01",
+   "venue": "kmw-flora",
+   "url": "https://www.kmw.ch/en/exhibition/nedko-solakov/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Reflections from Stable Life – Niklaus Stoecklin | Liselotte Moser | Louisa Gagliardi",
+   "start": "2025-10-04",
+   "end": "2026-02-09",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/stoecklin-moser-gagliardi/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Conrad Meyer – Pioneer of the Swiss Baroque",
+   "start": "2025-11-01",
+   "end": "2026-02-01",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/conrad-meyer/"
+  },
+  {
+   "type": "exhibition",
+   "title": "December exhibition: Overview 2025",
+   "start": "2025-11-22",
+   "end": "2026-01-04",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/dezemberausstellung2025/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Jack Goldstein – Pictures, Sounds and Movies",
+   "start": "2026-01-24",
+   "end": "2026-05-31",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/jack-goldstein/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Moments in Time",
+   "start": "2026-02-28",
+   "end": "2026-08-02",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/momente-der-zeit/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Simon Starling – The Artist, Wearing a Mask of Adolph Menzel, Holds Plaster Casts of the Ambidextrous German Painter’s Left and Right Hands (and Other Interventions)",
+   "start": "2026-02-28",
+   "end": "2026-07-05",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/simon-starling/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Claire Fontaine – Sugar Free",
+   "start": "2026-03-14",
+   "end": "2026-06-14",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/claire-fontaine/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Tout est lumière – Cezanne, Van Gogh, Matisse, and the Painters of the South",
+   "start": "2026-03-28",
+   "end": "2026-08-30",
+   "venue": "kmw-flora",
+   "url": "https://www.kmw.ch/en/exhibition/tout-est-lumiere/"
+  },
+  {
+   "type": "exhibition",
    "title": "Heidi Bucher – Liesl Raff – Closer",
    "start": "2026-06-13",
    "end": "2026-11-08",
@@ -60,6 +236,22 @@
    "venue": "kmw-reinhart",
    "url": "https://www.kmw.ch/en/exhibition/zur-sonne-zur-freiheit/",
    "time": null
+  },
+  {
+   "type": "exhibition",
+   "title": "3 x 2: Focus on Winterthur",
+   "start": "2026-08-14",
+   "end": "2026-09-06",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur/"
+  },
+  {
+   "type": "exhibition",
+   "title": "3 x 2: Focus on Winterthur",
+   "start": "2026-09-11",
+   "end": "2026-10-04",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-2/"
   },
   {
    "type": "exhibition",
@@ -81,7 +273,7 @@
   },
   {
    "type": "exhibition",
-   "title": "Mona Hatoum – Routes of Dissonance",
+   "title": "Mona Hatoum – Routes of Dissoncance",
    "start": "2026-10-03",
    "end": "2027-01-31",
    "venue": "kmw-stadthaus",
@@ -90,7 +282,7 @@
   },
   {
    "type": "exhibition",
-   "title": "3 x 2: Focus on Winterthur",
+   "title": "3 x 2: Focus on Winterthur",
    "start": "2026-10-09",
    "end": "2026-11-01",
    "venue": "kmw-reinhart",
@@ -195,8 +387,6 @@
    "url": "https://www.theaterwinterthur.ch/kurzfilmtage-festivaleroeffnung"
   },
   {
-   "type": "event",
-   "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
    "start": "2026-11-08",
    "end": "2026-11-08",
    "time": "15:00–17:00",
