@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T08:00:00+00:00",
+ "updated": "2026-10-25T09:00:00+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -12,6 +12,34 @@
   "kmw-flora": {
    "name": "KMW · Villa Flora",
    "address": "Tösstalstrasse 44, 8400 Winterthur"
+  },
+  "theater-winterthur": {
+   "name": "Theater Winterthur",
+   "address": "Theaterstrasse 6, 8400 Winterthur"
+  },
+  "theater-am-gleis": {
+   "name": "Theater am Gleis",
+   "address": "Untere Vogelsangstrasse 3, 8400 Winterthur"
+  },
+  "casinotheater": {
+   "name": "Casinotheater Winterthur",
+   "address": "Stadthausstrasse 119, 8400 Winterthur"
+  },
+  "kellertheater": {
+   "name": "Kellertheater Winterthur",
+   "address": "Altstadt, 8400 Winterthur"
+  },
+  "zimmer-theater-ariane": {
+   "name": "Zimmer-Theater Ariane",
+   "address": "Schaffhauserstrasse 44, 8400 Winterthur"
+  },
+  "figurentheater": {
+   "name": "Figurentheater Winterthur",
+   "address": "Marktgasse 25, 8400 Winterthur"
+  },
+  "tkz-winterthur": {
+   "name": "Theater Kanton Zürich (Winterthur)",
+   "address": "Scheideggstrasse 37, Winterthur-Grüze"
   }
  },
  "events": [
@@ -21,7 +49,8 @@
    "start": "2026-06-13",
    "end": "2026-11-08",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/heidi-bucher-liesl-raff/"
+   "url": "https://www.kmw.ch/en/exhibition/heidi-bucher-liesl-raff/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -29,7 +58,8 @@
    "start": "2026-07-04",
    "end": "2026-10-25",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/zur-sonne-zur-freiheit/"
+   "url": "https://www.kmw.ch/en/exhibition/zur-sonne-zur-freiheit/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -37,7 +67,8 @@
    "start": "2026-09-12",
    "end": "2027-01-17",
    "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/jutta-koether/"
+   "url": "https://www.kmw.ch/en/exhibition/jutta-koether/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -45,7 +76,8 @@
    "start": "2026-09-19",
    "end": "2026-12-31",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/moderne-reloaded/"
+   "url": "https://www.kmw.ch/en/exhibition/moderne-reloaded/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -53,7 +85,8 @@
    "start": "2026-10-03",
    "end": "2027-01-31",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/mona-hatoum/"
+   "url": "https://www.kmw.ch/en/exhibition/mona-hatoum/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -61,7 +94,8 @@
    "start": "2026-10-09",
    "end": "2026-11-01",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-3/"
+   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-3/",
+   "time": null
   },
   {
    "type": "event",
@@ -73,6 +107,94 @@
    "url": "https://www.kmw.ch/en/agenda/"
   },
   {
+   "type": "show",
+   "category": "theater",
+   "title": "Das Versprechen",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "14:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/das-versprechen"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
+   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "lass mir dein lachen",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/lass-mir-dein-lachen/",
+   "subtitle": "Mit Trianguli | Musikalische Lesung",
+   "description": "Ein Abend der Poesie und Musik, bei dem die Werke des chilenischen Dichters Pablo Neruda im Mittelpunkt stehen."
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Die kleinste Gabel der Welt",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "15:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/die-kleinste-gabel-der-welt/",
+   "subtitle": "Das Büro mit dem lustigen Namen | Kindertheater",
+   "description": "Darf man einen Menschen verurteilen, der etwas geklaut hat, das so klein ist, dass man es gar nicht sehen kann? Ab 5 Jahren."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "The Journey",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/the-journey"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "The Journey",
+   "start": "2026-10-29",
+   "end": "2026-10-29",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/the-journey"
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Theatersport",
+   "start": "2026-11-02",
+   "end": "2026-11-02",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/theatersport-21/",
+   "subtitle": "Badumts vs. Drei-Vierteltakt",
+   "description": "Zwei Impro-Profis, eine neue Gastmannschaft. Sie alle bringen jahrelange Impro-Erfahrung und ihren ganz eigenen Stil mit."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "30. Internationale Kurzfilmtage – Festivaleröffnung",
+   "start": "2026-11-03",
+   "end": "2026-11-03",
+   "time": "20:15",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/kurzfilmtage-festivaleroeffnung"
+  },
+  {
    "type": "event",
    "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
    "start": "2026-11-08",
@@ -80,6 +202,172 @@
    "time": "15:00–17:00",
    "venue": "kmw-stadthaus",
    "url": "https://www.kmw.ch/en/agenda/"
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Plattentaufe «Stereogefühle»",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": "19:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/plattentaufe-stereogefuehle/",
+   "subtitle": "Mit Lele Javel | Musik",
+   "description": "Die Band ist zurück mit neuem Album und neuer Formation. Die Indie-Kraut-Pop-Scheibe «Stereogefühle» ist verträumter und sphärischer denn je."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Sherlock Holmes: Der Fall Moriarty",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "time": "20:00",
+   "venue": "tkz-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/sherlock-holmes-der-fall-moriarty/",
+   "subtitle": "Von Ken Ludwig | Schweizer Erstaufführung",
+   "description": "Sherlock Holmes und Dr. Watson haben einen neuen Auftrag: Die Ermittlungen führen in einen Kriminalfall internationalen Formats. Es geht um Krieg oder..."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Familie Flöz «Dr. Nest»",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/familie-floez-dr-nest/",
+   "subtitle": "Maskentheater-Performance ohne Worte",
+   "description": "Ein Stück über die Zerbrechlichkeit, die Beweglichkeit und die schöpferische Kraft der menschlichen Psyche."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "Rythmosphère",
+   "start": "2026-12-07",
+   "end": "2026-12-07",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/rythmosphere/",
+   "subtitle": "Adrien Rako, Daniel Borak, Tamara Mancini/CludaCo | Tanz",
+   "description": "Bodypercussion, Tanz und Live-Musik treten in einen lebendigen Dialog."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Der Vogelhändler",
+   "start": "2026-12-30",
+   "end": "2026-12-30",
+   "time": "19:00",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-vogelhaendler/",
+   "subtitle": "Operette von Carl Zeller",
+   "description": "Die berühmte Operette verspricht einen vergnüglichen Abend mit emotionalen Turbulenzen und musikalischen Ohrwürmern."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2027-02-05",
+   "end": "2027-02-05",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "Junior Ballett Zürich: Art Matters",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/junior-ballett-zuerich-art-matters/",
+   "subtitle": "Zweiteiliger Ballettabend | Uraufführung",
+   "description": "Der neue Abend des Junior Balletts entsteht in engem Dialog mit dem Kunsthaus Zürich und dem Kunstmuseum Winterthur."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2027-03-06",
+   "end": "2027-03-06",
+   "time": "10:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "«falsch verbunden» – mit dem Chällerfon auf die Bühne",
+   "start": "2027-03-30",
+   "end": "2027-03-30",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/falsch-verbunden-mit-dem-chaellerfon-auf-die-buehne/",
+   "subtitle": "Chäller Live | Comedy",
+   "description": "In seinem neuen Programm bringt der Comedian seine bekannten Scherzanrufe direkt auf die Bühne."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2027-04-07",
+   "end": "2027-04-07",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Theaterführung",
+   "start": "2027-05-19",
+   "end": "2027-05-19",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/fuehrungen"
   }
  ]
 }
