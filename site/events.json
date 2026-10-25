@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T09:00:00+00:00",
+ "updated": "2026-10-25T09:12:52+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -49,7 +49,8 @@
    "start": "2024-02-03",
    "end": "2024-04-28",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/from-gerhard-richter-to-mary-heilmann/"
+   "url": "https://www.kmw.ch/en/exhibition/from-gerhard-richter-to-mary-heilmann/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -57,7 +58,8 @@
    "start": "2024-02-03",
    "end": "2024-04-28",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/michael-e-smith/"
+   "url": "https://www.kmw.ch/en/exhibition/michael-e-smith/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -65,7 +67,8 @@
    "start": "2024-03-23",
    "end": "2025-01-05",
    "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/bienvenue/"
+   "url": "https://www.kmw.ch/en/exhibition/bienvenue/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -73,7 +76,8 @@
    "start": "2024-09-21",
    "end": "2025-03-23",
    "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/marcel-van-eeden/"
+   "url": "https://www.kmw.ch/en/exhibition/marcel-van-eeden/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -81,7 +85,8 @@
    "start": "2024-11-30",
    "end": "2025-01-05",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/december-exhibition-focus-2024/"
+   "url": "https://www.kmw.ch/en/exhibition/december-exhibition-focus-2024/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -89,7 +94,8 @@
    "start": "2025-02-01",
    "end": "2025-04-27",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/durchzug/"
+   "url": "https://www.kmw.ch/en/exhibition/durchzug/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -97,7 +103,8 @@
    "start": "2025-03-01",
    "end": "2025-09-07",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/einleuchten/"
+   "url": "https://www.kmw.ch/en/exhibition/einleuchten/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -105,7 +112,8 @@
    "start": "2025-03-01",
    "end": "2025-09-07",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/pierre-louis-bouvier/"
+   "url": "https://www.kmw.ch/en/exhibition/pierre-louis-bouvier/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -113,7 +121,8 @@
    "start": "2025-04-12",
    "end": "2025-09-07",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/felix-vallotton/"
+   "url": "https://www.kmw.ch/en/exhibition/felix-vallotton/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -121,7 +130,8 @@
    "start": "2025-05-24",
    "end": "2025-08-10",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/rewind/"
+   "url": "https://www.kmw.ch/en/exhibition/rewind/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -129,7 +139,8 @@
    "start": "2025-05-24",
    "end": "2025-08-10",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/tony-oursler/"
+   "url": "https://www.kmw.ch/en/exhibition/tony-oursler/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -137,7 +148,8 @@
    "start": "2025-09-05",
    "end": "2025-11-09",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/lorenza-longhi/"
+   "url": "https://www.kmw.ch/en/exhibition/lorenza-longhi/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -145,7 +157,8 @@
    "start": "2025-09-05",
    "end": "2025-11-09",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/virginia-overton/"
+   "url": "https://www.kmw.ch/en/exhibition/virginia-overton/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -153,7 +166,8 @@
    "start": "2025-09-27",
    "end": "2026-03-01",
    "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/nedko-solakov/"
+   "url": "https://www.kmw.ch/en/exhibition/nedko-solakov/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -161,7 +175,8 @@
    "start": "2025-10-04",
    "end": "2026-02-09",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/stoecklin-moser-gagliardi/"
+   "url": "https://www.kmw.ch/en/exhibition/stoecklin-moser-gagliardi/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -169,7 +184,8 @@
    "start": "2025-11-01",
    "end": "2026-02-01",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/conrad-meyer/"
+   "url": "https://www.kmw.ch/en/exhibition/conrad-meyer/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -177,7 +193,8 @@
    "start": "2025-11-22",
    "end": "2026-01-04",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/dezemberausstellung2025/"
+   "url": "https://www.kmw.ch/en/exhibition/dezemberausstellung2025/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -185,7 +202,8 @@
    "start": "2026-01-24",
    "end": "2026-05-31",
    "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/jack-goldstein/"
+   "url": "https://www.kmw.ch/en/exhibition/jack-goldstein/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -193,7 +211,8 @@
    "start": "2026-02-28",
    "end": "2026-08-02",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/momente-der-zeit/"
+   "url": "https://www.kmw.ch/en/exhibition/momente-der-zeit/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -201,7 +220,8 @@
    "start": "2026-02-28",
    "end": "2026-07-05",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/simon-starling/"
+   "url": "https://www.kmw.ch/en/exhibition/simon-starling/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -209,7 +229,8 @@
    "start": "2026-03-14",
    "end": "2026-06-14",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/claire-fontaine/"
+   "url": "https://www.kmw.ch/en/exhibition/claire-fontaine/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -217,7 +238,8 @@
    "start": "2026-03-28",
    "end": "2026-08-30",
    "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/tout-est-lumiere/"
+   "url": "https://www.kmw.ch/en/exhibition/tout-est-lumiere/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -243,7 +265,8 @@
    "start": "2026-08-14",
    "end": "2026-09-06",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur/"
+   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -251,7 +274,8 @@
    "start": "2026-09-11",
    "end": "2026-10-04",
    "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-2/"
+   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-2/",
+   "time": null
   },
   {
    "type": "exhibition",
@@ -290,15 +314,6 @@
    "time": null
   },
   {
-   "type": "event",
-   "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
-   "start": "2026-10-20",
-   "end": "2026-10-20",
-   "time": "17:00–19:00",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/agenda/"
-  },
-  {
    "type": "show",
    "category": "theater",
    "title": "Das Versprechen",
@@ -306,7 +321,7 @@
    "end": "2026-10-25",
    "time": "14:30",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/das-versprechen"
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -334,6 +349,18 @@
   },
   {
    "type": "show",
+   "category": "theater",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-10-26",
+   "end": "2026-10-26",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
+   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
+  },
+  {
+   "type": "show",
    "category": "kids",
    "title": "Die kleinste Gabel der Welt",
    "start": "2026-10-28",
@@ -352,7 +379,7 @@
    "end": "2026-10-28",
    "time": "19:30",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/the-journey"
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -362,7 +389,55 @@
    "end": "2026-10-29",
    "time": "19:30",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/the-journey"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Irre Welle",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/irre-welle/",
+   "subtitle": "Ursina Gregori & Ruth Widmer | Theater",
+   "description": "Zwei Moderatorinnen rücken aussortierte, weggesperrte und ignorierte Frauen ins Rampenlicht und geben ihnen die Stimme, die ihnen zu Lebzeiten verweigert..."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
+   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
+   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
+   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
   },
   {
    "type": "show",
@@ -377,21 +452,95 @@
    "description": "Zwei Impro-Profis, eine neue Gastmannschaft. Sie alle bringen jahrelange Impro-Erfahrung und ihren ganz eigenen Stil mit."
   },
   {
-   "type": "event",
+   "type": "show",
+   "category": "theater",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-11-02",
+   "end": "2026-11-02",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
+   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
+  },
+  {
+   "type": "show",
    "category": null,
-   "title": "30. Internationale Kurzfilmtage – Festivaleröffnung",
+   "title": "30. Internationale Kurzfilmtage",
    "start": "2026-11-03",
    "end": "2026-11-03",
    "time": "20:15",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/kurzfilmtage-festivaleroeffnung"
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
+   "type": "show",
+   "category": "theater",
+   "title": "Nora, Nora, Nora",
+   "start": "2026-11-04",
+   "end": "2026-11-04",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/nora-nora-nora/",
+   "subtitle": "Eine Grenzgänge Produktion | Gastspiel",
+   "description": "Drei Frauen treffen aufeinander und setzen sich mit den eigenen Ansprüchen, Erwartungen und Möglichkeiten auseinander."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Am Seil abelo – Eine Totengräberballade",
+   "start": "2026-11-05",
+   "end": "2026-11-05",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/am-seil-abelo-eine-totengraeberballade/",
+   "subtitle": "Mit Philipp Galizia und Christian Roffler | Theater und Musik",
+   "description": "Ein Bier lang werden Geschichten aus dem Alltag des knorrigen und gutmütigen Totengräbers erzählt, begleitet von Pianomusik."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Nora, Nora, Nora",
+   "start": "2026-11-06",
+   "end": "2026-11-06",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/nora-nora-nora/",
+   "subtitle": "Eine Grenzgänge Produktion | Gastspiel",
+   "description": "Drei Frauen treffen aufeinander und setzen sich mit den eigenen Ansprüchen, Erwartungen und Möglichkeiten auseinander."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Die fetten Jahre sind vorbei",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/die-fetten-jahre-sind-vorbei/",
+   "subtitle": "Nach dem gleichnamigen Film von Hans Weingartner",
+   "description": "Tiefgründige wie humorvolle Geschichte über die Suche nach der verschütteten revolutionären Energie, die unsere Welt vielleicht verbessern könnte."
+  },
+  {
+   "type": "event",
+   "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
    "start": "2026-11-08",
    "end": "2026-11-08",
    "time": "15:00–17:00",
    "venue": "kmw-stadthaus",
    "url": "https://www.kmw.ch/en/agenda/"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Nora, Nora, Nora",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/nora-nora-nora/",
+   "subtitle": "Eine Grenzgänge Produktion | Gastspiel",
+   "description": "Drei Frauen treffen aufeinander und setzen sich mit den eigenen Ansprüchen, Erwartungen und Möglichkeiten auseinander."
   },
   {
    "type": "show",
@@ -407,6 +556,87 @@
   },
   {
    "type": "show",
+   "category": "kids",
+   "title": "Hasenmama. Eine Bruno-Geschichte.",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "time": "15:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/hasenmama-eine-bruno-geschichte/",
+   "subtitle": "Jörg Bohn Theaterproduktionen | Kindertheater",
+   "description": "Ein Theater mit Witz und Herzenswärme für Kinder ab 4 Jahren und für Erwachsene."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Liederlich",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/liederlich-4/",
+   "subtitle": "Mit Reto Zeller, Judith Bach, Markus Schönholzer und Marie Diot",
+   "description": "DAS Highlight für Liebhaber:innen von Wortkunst, Liedermacherei und Kabarett."
+  },
+  {
+   "type": "exhibition",
+   "title": "Dining with Pieter Claesz – Focus on Still Life",
+   "start": "2026-11-14",
+   "end": "2027-03-14",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/zu-tisch-mit-pieter-claesz/",
+   "time": null
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Ob die Granatbäume blühen",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/ob-die-granatbaeume-bluehen/",
+   "subtitle": "Sprache und Musik, die von Liebe und Abschied erzählen",
+   "description": "Ein literarisch-musikalischer Dialog, der über den Tod hinausführt - Liebeserklärung und Epitaph zugleich."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Ob die Granatbäume blühen",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/ob-die-granatbaeume-bluehen/",
+   "subtitle": "Sprache und Musik, die von Liebe und Abschied erzählen",
+   "description": "Ein literarisch-musikalischer Dialog, der über den Tod hinausführt - Liebeserklärung und Epitaph zugleich."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Situationen",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "17:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/situationen/",
+   "subtitle": "Ensemble TaG | Musik",
+   "description": "Klang, Geste und körperliche Handlung greifen ineinander, bis Fiktion und Realität, Bühne und Leben nicht mehr voneinander zu trennen sind."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Alles ist gross",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/alles-ist-gross/",
+   "subtitle": "Von Zsuzsa Bánk | Schweizer Erstaufführung",
+   "description": "Ein Theaterabend über Abschied, Menschlichkeit und die grosse Kunst, das Leben zu feiern."
+  },
+  {
+   "type": "show",
    "category": "theater",
    "title": "Sherlock Holmes: Der Fall Moriarty",
    "start": "2026-11-20",
@@ -416,6 +646,39 @@
    "url": "https://applaus-winterthur.ch/vorstellung/sherlock-holmes-der-fall-moriarty/",
    "subtitle": "Von Ken Ludwig | Schweizer Erstaufführung",
    "description": "Sherlock Holmes und Dr. Watson haben einen neuen Auftrag: Die Ermittlungen führen in einen Kriminalfall internationalen Formats. Es geht um Krieg oder..."
+  },
+  {
+   "type": "exhibition",
+   "title": "Werkschau 2026 – Canton of Zurich",
+   "start": "2026-11-21",
+   "end": "2027-01-10",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/werkschau-2026/",
+   "time": null
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Alles ist gross",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/alles-ist-gross/",
+   "subtitle": "Von Zsuzsa Bánk | Schweizer Erstaufführung",
+   "description": "Ein Theaterabend über Abschied, Menschlichkeit und die grosse Kunst, das Leben zu feiern."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Famiglia Dimitri",
+   "start": "2026-11-24",
+   "end": "2026-11-24",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/famiglia-dimitri/",
+   "subtitle": "Cabaret Sorelle Forelle",
+   "description": "Drei Frauen – drei Clowns – ein Abend voller Widersprüche und Überraschungen. Schön, stark, mutig und manchmal gefährlich."
   },
   {
    "type": "show",
@@ -430,6 +693,18 @@
    "description": "Ein Stück über die Zerbrechlichkeit, die Beweglichkeit und die schöpferische Kraft der menschlichen Psyche."
   },
   {
+   "type": "show",
+   "category": "theater",
+   "title": "Alles ist gross",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/alles-ist-gross/",
+   "subtitle": "Von Zsuzsa Bánk | Schweizer Erstaufführung",
+   "description": "Ein Theaterabend über Abschied, Menschlichkeit und die grosse Kunst, das Leben zu feiern."
+  },
+  {
    "type": "event",
    "category": null,
    "title": "Theaterführung",
@@ -437,7 +712,19 @@
    "end": "2026-11-26",
    "time": "17:00",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Alles ist gross",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/alles-ist-gross/",
+   "subtitle": "Von Zsuzsa Bánk | Schweizer Erstaufführung",
+   "description": "Ein Theaterabend über Abschied, Menschlichkeit und die grosse Kunst, das Leben zu feiern."
   },
   {
    "type": "show",
@@ -446,6 +733,138 @@
    "start": "2026-11-28",
    "end": "2026-11-28",
    "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Intime Revolution",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/intime-revolution/",
+   "subtitle": "Von Anna Papst & Mats Staub | Gastspiel im Bistro Alte Kaserne",
+   "description": "Dieses neue Format des Kellertheaters wird über einen Zeitraum von sechs Monaten im Bistro Alte Kaserne gezeigt."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Cave of Hands",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/cave-of-hands/",
+   "subtitle": "Fisch und Vogel | Musik",
+   "description": "Die Musik von Cave of Hands pendelt zwischen repetitiver Trance und klanglicher Vielfarbigkeit."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Mühlheim Absturz Ruhr",
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/muehlheim-absturz-ruhr/",
+   "subtitle": "thecodes – Theatercompany Dennis Schwabenland | Gastspiel",
+   "description": "Eine schonungslose Auseinandersetzung mit Klassismus, Arbeitsplatzverlust und der Fragilität gesellschaftlicher Zugehörigkeit."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
+   "subtitle": "Nach Anton Tschechow",
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Mühlheim Absturz Ruhr",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/muehlheim-absturz-ruhr/",
+   "subtitle": "thecodes – Theatercompany Dennis Schwabenland | Gastspiel",
+   "description": "Eine schonungslose Auseinandersetzung mit Klassismus, Arbeitsplatzverlust und der Fragilität gesellschaftlicher Zugehörigkeit."
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "YES/NO",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "19:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/yes-no/",
+   "subtitle": "Joshua Monten | Tanz",
+   "description": "Eine Annäherung an das Thema «Consent» (Zustimmung, Einvernehmlichkeit) in drei Akten."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Der Kirschgarten",
+   "start": "2026-12-07",
+   "end": "2026-12-07",
+   "time": "20:00",
    "venue": "zimmer-theater-ariane",
    "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
    "subtitle": "Nach Anton Tschechow",
@@ -464,6 +883,54 @@
    "description": "Bodypercussion, Tanz und Live-Musik treten in einen lebendigen Dialog."
   },
   {
+   "type": "show",
+   "category": "dance",
+   "title": "Rythmosphère",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/rythmosphere/",
+   "subtitle": "Adrien Rako, Daniel Borak, Tamara Mancini/CludaCo | Tanz",
+   "description": "Bodypercussion, Tanz und Live-Musik treten in einen lebendigen Dialog."
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "WAAAS!? oder bei Oma auf Besuch",
+   "start": "2026-12-09",
+   "end": "2026-12-09",
+   "time": "15:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/waaas-oder-bei-oma-auf-besuch/",
+   "subtitle": "Alexandra Frosio | Kindertheater",
+   "description": "Ein Erzähltheater für alle die manchmal an einem anderen Ort übernachten und wissen, dass das nicht ganz ohne ist! Ab 4 Jahren."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Der grosse Diktator",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/der-grosse-diktator/",
+   "subtitle": "Schauspiel mit Musik nach Charlie Chaplins Film",
+   "description": "Erschreckend aktuelle Polit-Farce nach dem gleichnamigen Film von Charlie Chaplin aus dem Jahre 1940."
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "Rythmosphère",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/rythmosphere/",
+   "subtitle": "Adrien Rako, Daniel Borak, Tamara Mancini/CludaCo | Tanz",
+   "description": "Bodypercussion, Tanz und Live-Musik treten in einen lebendigen Dialog."
+  },
+  {
    "type": "event",
    "category": null,
    "title": "Theaterführung",
@@ -471,7 +938,103 @@
    "end": "2026-12-11",
    "time": "17:00",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Ich bin meine Mutter",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/ich-bin-meine-mutter/",
+   "subtitle": "Schertenleib&Seele | Theater",
+   "description": "Was erbt man ohne es zu wissen? Eine spielerische Auseinandersetzung mit der Herkunft."
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Spoken Word Poetry",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/spoken-word-poetry/",
+   "subtitle": "Casino-Slam",
+   "description": "Zwischen Wortakrobatik und emotionaler Bauchlandung: Der Casino-Slam geht in die nächste Saison."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Zwillings-Abenteuer!",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/zwillings-abenteuer/",
+   "subtitle": "Ein vielseitiges Erzähl-Konzert mit Hans und Kees Adolfsen",
+   "description": "Zwei Vollblutmusiker erzählen und spielen sich quer durch ihre identischen genetischen und musikalischen Wurzeln."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Zwillings-Abenteuer!",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/zwillings-abenteuer/",
+   "subtitle": "Ein vielseitiges Erzähl-Konzert mit Hans und Kees Adolfsen",
+   "description": "Zwei Vollblutmusiker erzählen und spielen sich quer durch ihre identischen genetischen und musikalischen Wurzeln."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "WindZeichen - Es gibt so wunderweisse Nächte",
+   "start": "2026-12-18",
+   "end": "2026-12-18",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/windzeichen-es-gibt-so-wunderweisse-naechte/",
+   "subtitle": "Mit Nicole Knuth, Gregor Prächt & Roman Wyss",
+   "description": "Ein poetischer und musikalischer Spaziergang durch die dunkle Nacht – dorthin, wo das Licht sich wieder zeigt."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "WindZeichen - Es gibt so wunderweisse Nächte",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/windzeichen-es-gibt-so-wunderweisse-naechte/",
+   "subtitle": "Mit Nicole Knuth, Gregor Prächt & Roman Wyss",
+   "description": "Ein poetischer und musikalischer Spaziergang durch die dunkle Nacht – dorthin, wo das Licht sich wieder zeigt."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Boudoir Bizarre",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/boudoir-bizarre/",
+   "subtitle": "Die schillernde Mixed Show",
+   "description": "Drag, Spoken Word, Burlesque, Musik, Talk & viel Glitzer – Alles in einer Show."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "WindZeichen - Es gibt so wunderweisse Nächte",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/windzeichen-es-gibt-so-wunderweisse-naechte/",
+   "subtitle": "Mit Nicole Knuth, Gregor Prächt & Roman Wyss",
+   "description": "Ein poetischer und musikalischer Spaziergang durch die dunkle Nacht – dorthin, wo das Licht sich wieder zeigt."
   },
   {
    "type": "show",
@@ -486,6 +1049,66 @@
    "description": "Die berühmte Operette verspricht einen vergnüglichen Abend mit emotionalen Turbulenzen und musikalischen Ohrwürmern."
   },
   {
+   "type": "show",
+   "category": "comedy",
+   "title": "Theatersport",
+   "start": "2027-01-04",
+   "end": "2027-01-04",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/theatersport-22/",
+   "subtitle": "Badumts vs. Bemme und Melange | Theater",
+   "description": "Zwei Städte, ein unschlagbares Duo: Bemme und Melange verbinden Wiener Raffinesse mit Leipziger Spielfreude."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Grock",
+   "start": "2027-01-07",
+   "end": "2027-01-07",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/grock/",
+   "subtitle": "Philipp Langenegger – Madlaina Küng – Simon Lüthi | Theater",
+   "description": "Ein Abend voller Witz, Melancholie und Musik: In dieser Grock-Lesung erwacht der „König der Clowns“ neu zum Leben."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "FRI3SER – Album-Release-Show",
+   "start": "2027-01-08",
+   "end": "2027-01-08",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/fri3ser-album-release-show/",
+   "subtitle": "Fisch und Vogel | Musik",
+   "description": "Das Trio um den Winterthurer Pianisten und Komponisten Lucca Fries macht Musik mit physischer Wucht und direkter Emotionalität."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Intime Revolution",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/intime-revolution/",
+   "subtitle": "Von Anna Papst & Mats Staub | Gastspiel im Bistro Alte Kaserne",
+   "description": "Dieses neue Format des Kellertheaters wird über einen Zeitraum von sechs Monaten im Bistro Alte Kaserne gezeigt."
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Momentum",
+   "start": "2027-01-12",
+   "end": "2027-01-12",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/momentum/",
+   "subtitle": "Moritz Schädler präsentiert bühnenreife Comedy-Talente",
+   "description": "Das Comedy-Nachwuchsformat aus dem Hause Casinotheater. Klein, fein und garantiert unterhaltsam."
+  },
+  {
    "type": "event",
    "category": null,
    "title": "Theaterführung",
@@ -493,7 +1116,163 @@
    "end": "2027-01-14",
    "time": "17:00",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Die Wurzel aus Sein",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "time": "19:00",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/die-wurzel-aus-sein/",
+   "subtitle": "Schauspiel von Wajdi Mouawad",
+   "description": "Eine tiefgründige und zutiefst menschliche Geschichte in der Regie des Burgtheaterintendanten Stefan Bachmann."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Vrenelis Gärtli",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/vrenelis-gaertli/",
+   "subtitle": "Eigenproduktion nach dem gleichnamigen Roman von Tim Krohn",
+   "description": "Was bedeutet Heimat in einer Welt, die immer digitaler, schneller und anonymer wird? Wo findet man Geborgenheit, wenn reale Begegnungen seltener werden?"
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "Collective Rhythms of Pain",
+   "start": "2027-01-15",
+   "end": "2027-01-15",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/collective-rhythms-of-pain/",
+   "subtitle": "Lyn Bentschik | Tanz",
+   "description": "Das Stück taucht ein in die Welt chronischer Schmerzerfahrungen. Relaxed Performance mit kreativen Übertiteln."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Vrenelis Gärtli",
+   "start": "2027-01-15",
+   "end": "2027-01-15",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/vrenelis-gaertli/",
+   "subtitle": "Eigenproduktion nach dem gleichnamigen Roman von Tim Krohn",
+   "description": "Was bedeutet Heimat in einer Welt, die immer digitaler, schneller und anonymer wird? Wo findet man Geborgenheit, wenn reale Begegnungen seltener werden?"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Vrenelis Gärtli",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/vrenelis-gaertli/",
+   "subtitle": "Eigenproduktion nach dem gleichnamigen Roman von Tim Krohn",
+   "description": "Was bedeutet Heimat in einer Welt, die immer digitaler, schneller und anonymer wird? Wo findet man Geborgenheit, wenn reale Begegnungen seltener werden?"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Im Abgang lebhaft",
+   "start": "2027-01-21",
+   "end": "2027-01-21",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/im-abgang-lebhaft/",
+   "subtitle": "Johannes Millius | Theater",
+   "description": "Ein Spoken-Word-Abend, zwischen Kondolieren und Kollabieren schwingend. Mit Herz, Schalk, Absurdität, Poesie, Irrwitz – und einer Urne."
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Immer und immer wieder",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "time": "17:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/immer-und-immer-wieder/",
+   "subtitle": "Ensemble TaG | Musik",
+   "description": "Dieses Konzert erkundet Wiederholung als musikalische Kraft. Was geschieht mit der eigenen Wahrnehmung, wenn man dieselbe Passage wiederholt hört?"
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Vor Hang is Muul",
+   "start": "2027-01-26",
+   "end": "2027-01-26",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/vor-hang-is-muul/",
+   "subtitle": "Valerian Mollet | Comedy",
+   "description": "Jung, nonchalant und etwas unordentlich. Der Jungschreiner generiert eine zauberhafte Welt, die flach wirkt, aber mit jeder Beobachtung runder wird."
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Geisterbahn!",
+   "start": "2027-01-27",
+   "end": "2027-01-27",
+   "time": "15:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/geisterbahn/",
+   "subtitle": "Figurentheater Matou | Kindertheater",
+   "description": "In der Geisterbahn ist eine Stelle ausgeschrieben und es meldet sich… ein Zwergpony! Ab 6 Jahren."
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Spoken Word Poetry",
+   "start": "2027-01-29",
+   "end": "2027-01-29",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/spoken-word-poetry/",
+   "subtitle": "Casino-Slam",
+   "description": "Zwischen Wortakrobatik und emotionaler Bauchlandung: Der Casino-Slam geht in die nächste Saison."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Boudoir Bizarre",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/boudoir-bizarre/",
+   "subtitle": "Die schillernde Mixed Show",
+   "description": "Drag, Spoken Word, Burlesque, Musik, Talk & viel Glitzer – Alles in einer Show."
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "While You Wait / Permeable",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/while-you-wait-permeable/",
+   "subtitle": "cie. aha!plus | Tanz",
+   "description": "Die Nachwuchscompagnie lädt ein zu zwei choreografischen Erkundungen von Zeit, Körper und Wahrnehmung."
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "While You Wait / Permeable",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "time": "19:00",
+   "venue": "theater-am-gleis",
+   "url": "https://applaus-winterthur.ch/vorstellung/while-you-wait-permeable/",
+   "subtitle": "cie. aha!plus | Tanz",
+   "description": "Die Nachwuchscompagnie lädt ein zu zwei choreografischen Erkundungen von Zeit, Körper und Wahrnehmung."
   },
   {
    "type": "event",
@@ -503,7 +1282,19 @@
    "end": "2027-02-05",
    "time": "17:00",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Beziehungsstatus: improvisiert",
+   "start": "2027-02-09",
+   "end": "2027-02-09",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/beziehungsstatus-improvisiert/",
+   "subtitle": "Improtheater anundpfirsich",
+   "description": "Die Impro-Show zum Thema Beziehungen & Liebe."
   },
   {
    "type": "show",
@@ -518,6 +1309,18 @@
    "description": "Der neue Abend des Junior Balletts entsteht in engem Dialog mit dem Kunsthaus Zürich und dem Kunstmuseum Winterthur."
   },
   {
+   "type": "show",
+   "category": "comedy",
+   "title": "Momentum",
+   "start": "2027-02-23",
+   "end": "2027-02-23",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/momentum/",
+   "subtitle": "Moritz Schädler präsentiert bühnenreife Comedy-Talente",
+   "description": "Das Comedy-Nachwuchsformat aus dem Hause Casinotheater. Klein, fein und garantiert unterhaltsam."
+  },
+  {
    "type": "event",
    "category": null,
    "title": "Theaterführung",
@@ -525,7 +1328,19 @@
    "end": "2027-03-06",
    "time": "10:30",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Castor et Pollux",
+   "start": "2027-03-06",
+   "end": "2027-03-06",
+   "time": "19:00",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/castor-et-pollux/",
+   "subtitle": "Oper von Jean-Philippe Rameau",
+   "description": "Zwei Brüder, eine Frau und eine Entscheidung zwischen Liebe und Unsterblichkeit. Ein packendes Drama über Loyalität, Verlangen und Opferbereitschaft."
   },
   {
    "type": "show",
@@ -540,6 +1355,30 @@
    "description": "In seinem neuen Programm bringt der Comedian seine bekannten Scherzanrufe direkt auf die Bühne."
   },
   {
+   "type": "show",
+   "category": "comedy",
+   "title": "Spoken Word Poetry",
+   "start": "2027-04-02",
+   "end": "2027-04-02",
+   "time": "19:30",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/spoken-word-poetry/",
+   "subtitle": "Casino-Slam",
+   "description": "Zwischen Wortakrobatik und emotionaler Bauchlandung: Der Casino-Slam geht in die nächste Saison."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Romeo und Julia",
+   "start": "2027-04-06",
+   "end": "2027-04-06",
+   "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/romeo-und-julia/",
+   "subtitle": "Schauspiel von William Shakespeare mit dem Theater Heidelberg",
+   "description": "Die Neuinterpretation von Shakespeares Meisterwerk richtet den Blick auf eine Gesellschaft im Ausnahmezustand und mitten darin auf zwei junge Liebende."
+  },
+  {
    "type": "event",
    "category": null,
    "title": "Theaterführung",
@@ -547,7 +1386,19 @@
    "end": "2027-04-07",
    "time": "17:00",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Momentum",
+   "start": "2027-04-20",
+   "end": "2027-04-20",
+   "time": "19:30",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/momentum/",
+   "subtitle": "Moritz Schädler präsentiert bühnenreife Comedy-Talente",
+   "description": "Das Comedy-Nachwuchsformat aus dem Hause Casinotheater. Klein, fein und garantiert unterhaltsam."
   },
   {
    "type": "event",
@@ -557,7 +1408,55 @@
    "end": "2027-05-19",
    "time": "17:00",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "music",
+   "title": "Angels in America",
+   "start": "2027-05-19",
+   "end": "2027-05-19",
+   "time": "19:00",
+   "venue": "theater-winterthur",
+   "url": "https://applaus-winterthur.ch/vorstellung/angels-in-america/",
+   "subtitle": "Oper von Peter Eötvös nach dem gleichnamigen Stück von Tony Kushner",
+   "description": "Die Oper führt ins Amerika der späten 1980er Jahre, die von wilder Lebenslust geprägt, aber auch von der Aids-Epidemie überschattet waren."
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "Boudoir Bizarre",
+   "start": "2027-05-21",
+   "end": "2027-05-21",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/boudoir-bizarre/",
+   "subtitle": "Die schillernde Mixed Show",
+   "description": "Drag, Spoken Word, Burlesque, Musik, Talk & viel Glitzer – Alles in einer Show."
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Spoken Word Poetry",
+   "start": "2027-05-28",
+   "end": "2027-05-28",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/spoken-word-poetry/",
+   "subtitle": "Casino-Slam",
+   "description": "Zwischen Wortakrobatik und emotionaler Bauchlandung: Der Casino-Slam geht in die nächste Saison."
+  },
+  {
+   "type": "show",
+   "category": "comedy",
+   "title": "Momentum",
+   "start": "2027-06-08",
+   "end": "2027-06-08",
+   "time": "19:30",
+   "venue": "casinotheater",
+   "url": "https://applaus-winterthur.ch/vorstellung/momentum/",
+   "subtitle": "Moritz Schädler präsentiert bühnenreife Comedy-Talente",
+   "description": "Das Comedy-Nachwuchsformat aus dem Hause Casinotheater. Klein, fein und garantiert unterhaltsam."
   }
  ]
 }
