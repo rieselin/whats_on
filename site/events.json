@@ -1,0 +1,85 @@
+{
+ "updated": "2026-10-25T08:00:00+00:00",
+ "venues": {
+  "kmw-stadthaus": {
+   "name": "KMW · Beim Stadthaus",
+   "address": "Museumstrasse 52, 8400 Winterthur"
+  },
+  "kmw-reinhart": {
+   "name": "KMW · Reinhart am Stadtgarten",
+   "address": "Stadthausstrasse 6, 8400 Winterthur"
+  },
+  "kmw-flora": {
+   "name": "KMW · Villa Flora",
+   "address": "Tösstalstrasse 44, 8400 Winterthur"
+  }
+ },
+ "events": [
+  {
+   "type": "exhibition",
+   "title": "Heidi Bucher – Liesl Raff – Closer",
+   "start": "2026-06-13",
+   "end": "2026-11-08",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/heidi-bucher-liesl-raff/"
+  },
+  {
+   "type": "exhibition",
+   "title": "To the Sun! To Freedom! – Paths of Plein-Air Painting Around 1800",
+   "start": "2026-07-04",
+   "end": "2026-10-25",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/zur-sonne-zur-freiheit/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Jutta Koether",
+   "start": "2026-09-12",
+   "end": "2027-01-17",
+   "venue": "kmw-flora",
+   "url": "https://www.kmw.ch/en/exhibition/jutta-koether/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Modernism Reloaded – Monet to Mondrian – Bailly to Baer",
+   "start": "2026-09-19",
+   "end": "2026-12-31",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/moderne-reloaded/"
+  },
+  {
+   "type": "exhibition",
+   "title": "Mona Hatoum – Routes of Dissonance",
+   "start": "2026-10-03",
+   "end": "2027-01-31",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/exhibition/mona-hatoum/"
+  },
+  {
+   "type": "exhibition",
+   "title": "3 x 2: Focus on Winterthur",
+   "start": "2026-10-09",
+   "end": "2026-11-01",
+   "venue": "kmw-reinhart",
+   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-3/"
+  },
+  {
+   "type": "event",
+   "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "17:00–19:00",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/agenda/"
+  },
+  {
+   "type": "event",
+   "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": "15:00–17:00",
+   "venue": "kmw-stadthaus",
+   "url": "https://www.kmw.ch/en/agenda/"
+  }
+ ]
+}

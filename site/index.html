@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>What’s on</title>
+<style>
+:root{--bg:#faf8f5;--card:#fff;--text:#1d1b19;--muted:#6f6a64;--line:#e6e1da;--accent:#1d1b19}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#161513;--card:#201f1c;--text:#f1ede7;--muted:#9a948b;--line:#33312d;--accent:#f1ede7}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font:600 26px/1.2 Georgia,"Times New Roman",serif;margin:0 0 2px}
+.sub{color:var(--muted);margin:0 0 16px;font-size:13px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:6px 12px;cursor:pointer;font:inherit;font-size:13px;display:flex;align-items:center;gap:6px}
+.chip.off{opacity:.4}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.cal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.nav button{border:1px solid var(--line);background:none;color:var(--text);border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.dow{font-size:11px;color:var(--muted);text-align:center;padding:4px 0}
+.day{aspect-ratio:1/1.05;border:1px solid transparent;border-radius:8px;background:none;color:var(--text);cursor:pointer;display:flex;flex-direction:column;align-items:center;padding:4px 0;font:inherit;font-size:13px;gap:3px}
+.day.out{opacity:.3}.day.today{border-color:var(--accent)}.day.sel{background:var(--accent);color:var(--bg)}
+.dots{display:flex;gap:2px;flex-wrap:wrap;justify-content:center;max-width:90%}
+.dots i{width:6px;height:6px;border-radius:50%;display:block}.dots i.ev{border-radius:1px;transform:rotate(45deg)}
+.legend{font-size:12px;color:var(--muted);margin-top:8px}
+h2{font:600 18px Georgia,serif;margin:24px 0 10px}
+.item{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:10px 12px;margin-bottom:8px}
+.item a{color:inherit;text-decoration:none}.item a:hover .t{text-decoration:underline}
+.t{font-weight:600}.m{color:var(--muted);font-size:13px}
+.tag{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.empty{color:var(--muted);padding:6px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>What’s on</h1>
+<p class="sub" id="sub">Loading…</p>
+<div class="chips" id="chips"></div>
+<div class="cal">
+  <div class="nav"><button id="prev" aria-label="Previous month">‹</button><b id="mlabel"></b><button id="next" aria-label="Next month">›</button></div>
+  <div class="grid" id="grid"></div>
+  <div class="legend">● exhibition running &nbsp; ◆ event</div>
+</div>
+<h2 id="dlabel"></h2><div id="detail"></div>
+<h2>On now</h2><div id="now"></div>
+</main>
+<script>
+const PALETTE=["#c2410c","#1d6fa5","#2f855a","#9333ea","#be123c","#a16207","#0f766e"];
+const $=id=>document.getElementById(id);
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const today=iso(new Date());
+let DATA=[],VENUES={},view=new Date(),sel=today;view.setDate(1);
+const active=new Set();
+const on=(e,d)=>active.has(e.venue)&&e.start<=d&&d<=e.end;
+const fmt=s=>new Date(s+"T12:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+fetch("events.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{
+  DATA=j.events;
+  Object.keys(j.venues).forEach((k,i)=>{VENUES[k]={...j.venues[k],color:PALETTE[i%PALETTE.length]};active.add(k);});
+  $("sub").textContent="Updated "+new Date(j.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"});
+  render();
+}).catch(e=>{$("sub").textContent="Could not load events.json ("+e.message+"). If you opened this file directly, serve it with: python -m http.server";});
+
+function chips(){
+  $("chips").innerHTML="";
+  for(const k in VENUES){
+    const b=document.createElement("button");
+    b.className="chip"+(active.has(k)?"":" off");
+    b.innerHTML='<span class="dot" style="background:'+VENUES[k].color+'"></span>'+esc(VENUES[k].name);
+    b.onclick=()=>{active.has(k)?active.delete(k):active.add(k);render();};
+    $("chips").appendChild(b);
+  }
+}
+function card(e){
+  const v=VENUES[e.venue];
+  const when=e.type==="event"?fmt(e.start)+(e.time?" · "+esc(e.time):""):fmt(e.start)+" – "+fmt(e.end);
+  return '<div class="item" style="--c:'+v.color+'"><a href="'+esc(e.url)+'" target="_blank" rel="noopener"><div class="tag">'+esc(e.type)+'</div><div class="t">'+esc(e.title)+'</div><div class="m">'+when+'<br>'+esc(v.name)+(v.address?', '+esc(v.address):'')+'</div></a></div>';
+}
+function calendar(){
+  const y=view.getFullYear(),m=view.getMonth();
+  $("mlabel").textContent=view.toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+  let h=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d=>'<div class="dow">'+d+'</div>').join("");
+  const first=(new Date(y,m,1).getDay()+6)%7,start=new Date(y,m,1-first);
+  for(let i=0;i<42;i++){
+    const d=new Date(start);d.setDate(start.getDate()+i);
+    const s=iso(d),items=DATA.filter(e=>on(e,s));
+    const dots=items.filter(e=>e.type!=="event").map(e=>'<i style="background:'+VENUES[e.venue].color+'"></i>').join("")+items.filter(e=>e.type==="event").map(e=>'<i class="ev" style="background:'+VENUES[e.venue].color+'"></i>').join("");
+    h+='<button class="day'+(d.getMonth()!==m?" out":"")+(s===today?" today":"")+(s===sel?" sel":"")+'" data-d="'+s+'">'+d.getDate()+'<span class="dots">'+dots+'</span></button>';
+  }
+  $("grid").innerHTML=h;
+  $("grid").querySelectorAll(".day").forEach(b=>b.onclick=()=>{sel=b.dataset.d;render();});
+}
+function detail(){
+  $("dlabel").textContent=new Date(sel+"T12:00").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
+  const items=DATA.filter(e=>on(e,sel)).sort((a,b)=>a.type<b.type?1:-1);
+  $("detail").innerHTML=items.length?items.map(card).join(""):'<div class="empty">Nothing listed for this day.</div>';
+}
+function now(){
+  const items=DATA.filter(e=>e.type==="exhibition"&&on(e,today)).sort((a,b)=>a.end<b.end?-1:1);
+  $("now").innerHTML=items.length?items.map(card).join(""):'<div class="empty">No current exhibitions for the selected venues.</div>';
+}
+function render(){chips();calendar();detail();now();}
+$("prev").onclick=()=>{view.setMonth(view.getMonth()-1);calendar();};
+$("next").onclick=()=>{view.setMonth(view.getMonth()+1);calendar();};
+</script>
+</body>
+</html>
