@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T10:43:40+00:00",
+ "updated": "2026-10-27T10:10:53+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -312,18 +312,6 @@
    "venue": "kmw-reinhart",
    "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-3/",
    "time": null
-  },
-  {
-   "type": "show",
-   "category": "theater",
-   "title": "Wer hat Angst vor Leo Trotzki?",
-   "start": "2026-10-26",
-   "end": "2026-10-26",
-   "time": "20:00",
-   "venue": "zimmer-theater-ariane",
-   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
-   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
-   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
   },
   {
    "type": "show",
