@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T10:56:20+00:00",
+ "updated": "2026-10-29T11:15:05+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -312,28 +312,6 @@
    "venue": "kmw-reinhart",
    "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-3/",
    "time": null
-  },
-  {
-   "type": "show",
-   "category": "kids",
-   "title": "Die kleinste Gabel der Welt",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "15:00",
-   "venue": "theater-am-gleis",
-   "url": "https://applaus-winterthur.ch/vorstellung/die-kleinste-gabel-der-welt/",
-   "subtitle": "Das Büro mit dem lustigen Namen | Kindertheater",
-   "description": "Darf man einen Menschen verurteilen, der etwas geklaut hat, das so klein ist, dass man es gar nicht sehen kann? Ab 5 Jahren."
-  },
-  {
-   "type": "show",
-   "category": "theater",
-   "title": "The Journey",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "19:30",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
