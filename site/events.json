@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:15:05+00:00",
+ "updated": "2026-10-30T11:09:23+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -316,16 +316,6 @@
   {
    "type": "show",
    "category": "theater",
-   "title": "The Journey",
-   "start": "2026-10-29",
-   "end": "2026-10-29",
-   "time": "19:30",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/"
-  },
-  {
-   "type": "show",
-   "category": "theater",
    "title": "Irre Welle",
    "start": "2026-10-30",
    "end": "2026-10-30",
@@ -468,6 +458,16 @@
    "start": "2026-11-07",
    "end": "2026-11-07",
    "time": "19:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Jazz Matinee",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": "10:30",
    "venue": "theater-winterthur",
    "url": "https://www.theaterwinterthur.ch/"
   },
@@ -1241,6 +1241,16 @@
    "description": "Ein Spoken-Word-Abend, zwischen Kondolieren und Kollabieren schwingend. Mit Herz, Schalk, Absurdität, Poesie, Irrwitz – und einer Urne."
   },
   {
+   "type": "event",
+   "category": null,
+   "title": "Jazz Matinee",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "time": "10:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
    "type": "show",
    "category": "music",
    "title": "Immer und immer wieder",
@@ -1349,6 +1359,16 @@
    "description": "Der neue Abend des Junior Balletts entsteht in engem Dialog mit dem Kunsthaus Zürich und dem Kunstmuseum Winterthur."
   },
   {
+   "type": "event",
+   "category": null,
+   "title": "Jazz Matinee",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": "10:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
    "type": "show",
    "category": "comedy",
    "title": "Momentum",
@@ -1371,6 +1391,16 @@
    "url": "https://applaus-winterthur.ch/vorstellung/castor-et-pollux/",
    "subtitle": "Oper von Jean-Philippe Rameau",
    "description": "Zwei Brüder, eine Frau und eine Entscheidung zwischen Liebe und Unsterblichkeit. Ein packendes Drama über Loyalität, Verlangen und Opferbereitschaft."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Jazz Matinee",
+   "start": "2027-03-14",
+   "end": "2027-03-14",
+   "time": "10:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -1409,6 +1439,16 @@
    "description": "Die Neuinterpretation von Shakespeares Meisterwerk richtet den Blick auf eine Gesellschaft im Ausnahmezustand und mitten darin auf zwei junge Liebende."
   },
   {
+   "type": "event",
+   "category": null,
+   "title": "Jazz Matinee",
+   "start": "2027-04-18",
+   "end": "2027-04-18",
+   "time": "10:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
    "type": "show",
    "category": "comedy",
    "title": "Momentum",
@@ -1419,6 +1459,16 @@
    "url": "https://applaus-winterthur.ch/vorstellung/momentum/",
    "subtitle": "Moritz Schädler präsentiert bühnenreife Comedy-Talente",
    "description": "Das Comedy-Nachwuchsformat aus dem Hause Casinotheater. Klein, fein und garantiert unterhaltsam."
+  },
+  {
+   "type": "event",
+   "category": null,
+   "title": "Jazz Matinee",
+   "start": "2027-05-09",
+   "end": "2027-05-09",
+   "time": "10:30",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
