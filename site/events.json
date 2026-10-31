@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:09:23+00:00",
+ "updated": "2026-10-31T10:42:15+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -312,30 +312,6 @@
    "venue": "kmw-reinhart",
    "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-3/",
    "time": null
-  },
-  {
-   "type": "show",
-   "category": "theater",
-   "title": "Irre Welle",
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "time": "20:00",
-   "venue": "theater-am-gleis",
-   "url": "https://applaus-winterthur.ch/vorstellung/irre-welle/",
-   "subtitle": "Ursina Gregori & Ruth Widmer | Theater",
-   "description": "Zwei Moderatorinnen rücken aussortierte, weggesperrte und ignorierte Frauen ins Rampenlicht und geben ihnen die Stimme, die ihnen zu Lebzeiten verweigert..."
-  },
-  {
-   "type": "show",
-   "category": "theater",
-   "title": "Wer hat Angst vor Leo Trotzki?",
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "time": "20:00",
-   "venue": "zimmer-theater-ariane",
-   "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
-   "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
-   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
   },
   {
    "type": "show",
