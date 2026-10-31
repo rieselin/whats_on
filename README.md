@@ -30,32 +30,55 @@ From then on it runs daily at 05:00 UTC. Edit the cron line in the workflow to c
 
 ## Sources
 
-| Source | Covers | How |
+Each theater's own program page is the primary source. Aggregators fill in everything else, and
+applaus! is used as a **filter** that flags which performances get 50% off for members.
+Earlier sources win when two list the same event (same venue and date, and the same title or time).
+
+| Source | Covers | Status |
 |---|---|---|
-| kmw.ch | Kunst Museum Winterthur exhibitions and events | `scrape_kmw` |
-| theaterwinterthur.ch (home page) | Theater Winterthur: the next few productions, with categories | `parse_tw_home` |
-| applaus-winterthur.ch | ~90 upcoming performances at Zimmer-Theater Ariane, Kellertheater, Theater am Gleis, Casinotheater, Theater Kanton Zürich (Winterthur only), Theater Winterthur, Figurentheater | `parse_applaus` |
+| kmw.ch | Kunst Museum Winterthur exhibitions + agenda | own parser |
+| theaterwinterthur.ch (home) | Theater Winterthur, next few productions only (the full Spielplan is JavaScript) | own parser |
+| keller.theater/events | Kellertheater (weekly Milonga skipped: no fixed dates) | own parser |
+| theater-am-gleis.ch/spielplan | Theater am Gleis | own parser |
+| casinotheater.ch/spielplan | Casinotheater (cancelled and "ausser Haus" dates skipped) | own parser |
+| theaterkantonzuerich.ch (home) | Winterthur performances only; school shows skipped | own parser |
+| figurentheater-winterthur.ch | next date per production (more dates are on detail pages) | own parser |
+| **coucoumagazin.ch/de/kalender.html** | the broadest calendar: theater, concerts, film, clubs, talks, museums and exhibitions. Covers **Technorama, Fotomuseum, Gewerbemuseum, Römerholz, Naturmuseum, Museum Schaffen, Uhrenmuseum, Oxyd, Galerie Weiertal, Mörsburg, Schloss Kyburg, Münzkabinett, Zimmer-Theater Ariane** and many more | own parser; only the days the page shows without JavaScript (about a week) |
+| stadt.winterthur.ch/veranstaltungen | the city's event calendar, all pages | own parser |
+| altekaserne.ch (Veranstaltungen im Haus) | Alte Kaserne | own parser (same format as the city site) |
+| lok.al/winterthur | Lok.al; **private-hire dates ("Geschlossene Gesellschaft") are left out** | own parser |
+| dampfzentrum.ch | open every 2nd and 4th Saturday, 13:00–16:00 (stated on its home page) | rule, no scraping; special events live in a server include that isn't parsed |
+| applaus-winterthur.ch | the 50% list | own parser |
+| 20 more pages (Münzkabinett, Neuthal, Museum Schaffen, Kyburg, Naturmuseum, Oxyd, Technorama, Mörsburg, Hegi, Römerholz, Uhrenmuseum, Fotostiftung, Gewerbemuseum, Galerie Weiertal, Kunsthalle, Fotomuseum, NGW, waslauft.in, kulturzüri, House of Winterthur) | whatever they publish as schema.org Event data | **best effort, not inspected.** Pages without such data yield nothing; the log prints how many came up empty. waslauft.in and kulturzüri cover all of Zurich, so only events whose location says Winterthur are kept. House of Winterthur's calendar is filled in by JavaScript and will most likely stay empty |
 
-**Known gaps in the applaus! list.** It only lists performances that get the 50%
-member discount. Per the page itself that excludes premieres at several theaters,
-and at Theater Winterthur and the Casinotheater only selected shows get 50%
-(the rest get 10% and aren't listed). So the calendar is good but not complete
-for those two. Theater Winterthur's own home page fills part of the gap; for
-the rest, add a parser for the venue's own program page.
+**Exhibitions from Coucou** don't carry real date ranges. They appear as "On view · listed through <last
+day Coucou showed>" and are refreshed on every run. Kunst Museum Winterthur keeps its exact ranges from kmw.ch.
 
-If the same show appears in two sources (same venue and date, same time or one
-time missing), the earlier source in `SOURCES` wins.
+**How the 50% flag works** (`mark_discounts`): a performance on the applaus! list is
+matched to an event from a theater's own page by venue + date + time (or when
+either time is missing). Matches get `"applaus": true` and a "50% off" badge.
+Anything on the applaus! list that no own-page event matches is **added** as an
+event (also flagged), so 50% shows never disappear, for example for Ariane or
+when a theater's page breaks.
 
-How `parse_applaus` works: each entry is a link whose text runs together date,
-venue, a kicker line, the title and a description. The title can't be separated
-by looking at the text alone, but the link's URL slug *is* the title, so the
-parser finds the slug inside the text and splits around it. If it ever can't
-find it, the title falls back to the slug itself.
+**Know the limits:** applaus! only lists discounted performances, and excludes premieres
+at several theaters; at Theater Winterthur and the Casinotheater only selected
+shows are 50%. A missing flag therefore means "not on the list", not "definitely
+full price".
+
+How `parse_applaus` and `parse_figurentheater` work: each entry is a link whose
+text runs date, kicker, title and description together. The URL slug *is* the
+title, so the parser finds the slug inside the text and splits around it.
+
+The other parsers read one "card" at a time: find the title element, climb to the
+largest ancestor that still contains only that one title, then read its text
+strings in order. If a site changes its markup, the card finder usually still
+works but the string positions don't, and the run reports "found 0 dates".
 
 ## Before you start
 
 - Edit `USER_AGENT` in `scrape.py` and put your own email in it.
-- The scraper checks `robots.txt` and fetches only 4 pages per run. Also read each venue's terms before adding it.
+- The scraper checks `robots.txt` and fetches roughly 50 pages per run (the city calendar is paginated). Also read each venue's terms before adding it.
 
 ## Run locally
 
@@ -79,6 +102,6 @@ parser until the tests pass, push.
 2. Write `scrape_<name>()` returning a list of dicts with `type`
    (`exhibition`, `show` or `event`), `title`, `start`, `end` (YYYY-MM-DD),
    `venue` (key from `VENUES`), `url`, and optionally `time` (HH:MM),
-   `category` (`theater`, `dance`, `music`, `comedy`, `kids`), `subtitle`, `description`.
+   `category` (`theater`, `dance`, `music`, `comedy`, `kids`), `subtitle`, `description`, `status` (e.g. "Ausverkauft").
 3. Add it to `SOURCES`. The page picks up new venues, colours and filter chips automatically.
 4. Save a snippet of the real page into `tests/fixtures/` and add a test for it.

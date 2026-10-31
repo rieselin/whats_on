@@ -3,19 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>What’s on</title>
+<title>What’s on – Winterthur</title>
 <style>
-:root{--bg:#faf8f5;--card:#fff;--text:#1d1b19;--muted:#6f6a64;--line:#e6e1da;--accent:#1d1b19}
-@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#161513;--card:#201f1c;--text:#f1ede7;--muted:#9a948b;--line:#33312d;--accent:#f1ede7}}
+:root{--bg:#faf8f5;--card:#fff;--text:#1d1b19;--muted:#6f6a64;--line:#e6e1da;--accent:#1d1b19;--disc:#b45309;--discbg:#fef3c7}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#161513;--card:#201f1c;--text:#f1ede7;--muted:#9a948b;--line:#33312d;--accent:#f1ede7;--disc:#fbbf24;--discbg:#3a2e0b}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
 h1{font:600 26px/1.2 Georgia,"Times New Roman",serif;margin:0 0 2px}
 .sub{color:var(--muted);margin:0 0 16px;font-size:13px}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .chip{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:6px 12px;cursor:pointer;font:inherit;font-size:13px;display:flex;align-items:center;gap:6px}
-.chip.off{opacity:.4}
-.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.chip.on{border-color:var(--accent);font-weight:600}
+.chip.off{opacity:.45}
+.chip.disc.on{background:var(--discbg);border-color:var(--disc);color:var(--disc)}
+details.vwrap{margin-bottom:10px}details.vwrap summary{cursor:pointer;font-size:13px;margin-bottom:8px}.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.msg{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:12px 14px;margin:6px 0 14px;font-size:14px}
+.msg button,.jump{margin-top:8px;border:1px solid var(--line);background:none;color:var(--text);border-radius:8px;padding:5px 10px;cursor:pointer;font:inherit;font-size:13px;display:block}
 .cal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
 .nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .nav button{border:1px solid var(--line);background:none;color:var(--text);border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:16px}
@@ -30,7 +34,9 @@ h2{font:600 18px Georgia,serif;margin:24px 0 10px}
 .item{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:10px 12px;margin-bottom:8px}
 .item a{color:inherit;text-decoration:none}.item a:hover .t{text-decoration:underline}
 .t{font-weight:600}.m{color:var(--muted);font-size:13px}
-.tag{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.tag{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.badge{font-size:11px;text-transform:none;letter-spacing:0;border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.badge.disc{background:var(--discbg);border-color:var(--disc);color:var(--disc);font-weight:600}
 .desc{margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .empty{color:var(--muted);padding:6px 0}
 </style>
@@ -40,58 +46,85 @@ h2{font:600 18px Georgia,serif;margin:24px 0 10px}
 <h1>What’s on</h1>
 <p class="sub" id="sub">Loading…</p>
 <div class="chips" id="tchips"></div>
-<div class="chips" id="chips"></div>
+<details class="vwrap" id="vwrap"><summary id="vsum">Venues</summary><div class="chips" id="chips"></div></details>
+<div class="chips" id="dchips"></div>
+<div id="msg"></div>
 <div class="cal">
   <div class="nav"><button id="prev" aria-label="Previous month">‹</button><b id="mlabel"></b><button id="next" aria-label="Next month">›</button></div>
   <div class="grid" id="grid"></div>
   <div class="legend">● exhibition running &nbsp; ◆ show / event</div>
 </div>
 <h2 id="dlabel"></h2><div id="detail"></div>
-<h2>On now</h2><div id="now"></div>
+<div id="upwrap"><h2>Coming up</h2><div id="up"></div></div>
+<div id="nowwrap"><h2>Exhibitions on now</h2><div id="now"></div></div>
 </main>
 <script>
-const PALETTE=["#c2410c","#1d6fa5","#2f855a","#9333ea","#be123c","#a16207","#0f766e","#db2777","#4f46e5","#65a30d"];
-const TYPES={exhibition:"Exhibitions",theater:"Theater",dance:"Dance",music:"Music",comedy:"Comedy & cabaret",kids:"Kids",show:"Shows",event:"Events & workshops"};
-const kind=e=>e.category||e.type;
+const PALETTE=["#c2410c","#1d6fa5","#2f855a","#9333ea","#be123c","#a16207","#0f766e","#db2777","#4f46e5","#65a30d","#0369a1","#b91c1c","#15803d","#7e22ce"];
+const TYPES={exhibition:"Exhibitions",theater:"Theater",dance:"Dance",music:"Music",comedy:"Comedy & cabaret",kids:"Kids & family",film:"Film",party:"Parties & clubs",talk:"Talks, readings & tours",show:"Shows",event:"Events & workshops"};
+const STATUS={"Ausverkauft":"Sold out","Letzte Plätze":"Last seats","Premiere":"Premiere","CH-Premiere":"Swiss premiere","Derniere":"Last show","Zusatzvorstellung":"Extra show","Clubangebot":"Club offer","Preview":"Preview"};
 const $=id=>document.getElementById(id);
 const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 const today=iso(new Date());
-let DATA=[],VENUES={},view=new Date(),sel=today;view.setDate(1);
-const active=new Set(),activeTypes=new Set();
-const safe=u=>/^https?:\/\//.test(u)?u:"#";
-const on=(e,d)=>active.has(e.venue)&&activeTypes.has(kind(e))&&e.start<=d&&d<=e.end;
-const fmt=s=>new Date(s+"T12:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const safe=u=>/^https?:\/\//.test(u)?u:"#";
+const kind=e=>e.category||e.type;
+const fmt=s=>new Date(s+"T12:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+const fmtShort=s=>new Date(s+"T12:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});
+
+let DATA=[],VENUES={},ALLV=[],ALLT=[],view=new Date(),sel=today;view.setDate(1);
+let selV=new Set(),selT=new Set(),disc=false;
+
+const ok=e=>selV.has(e.venue)&&selT.has(kind(e))&&(!disc||e.applaus);
+const on=(e,d)=>ok(e)&&e.start<=d&&d<=e.end;
+// Exclusive selection: click = only this one; click the only selected one again = everything.
+const pick=(cur,all,key)=>(key===null||(cur.size===1&&cur.has(key)))?new Set(all):new Set([key]);
 
 fetch("events.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{
-  DATA=j.events;DATA.forEach(e=>activeTypes.add(kind(e)));
-  Object.keys(j.venues).forEach((k,i)=>{VENUES[k]={...j.venues[k],color:PALETTE[i%PALETTE.length]};active.add(k);});
+  DATA=j.events;
+  Object.keys(j.venues).forEach((k,i)=>{VENUES[k]={...j.venues[k],color:PALETTE[i%PALETTE.length]};});
+  ALLV=Object.keys(VENUES).filter(k=>DATA.some(e=>e.venue===k));
+  const order=Object.keys(TYPES);
+  ALLT=[...new Set(DATA.map(kind))].sort((a,b)=>order.indexOf(a)-order.indexOf(b));
+  selV=new Set(ALLV);selT=new Set(ALLT);
   $("sub").textContent="Updated "+new Date(j.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"});
   render();
 }).catch(e=>{$("sub").textContent="Could not load events.json ("+e.message+"). If you opened this file directly, serve it with: python -m http.server";});
 
-function chips(){
-  $("tchips").innerHTML="";
-  [...new Set(DATA.map(kind))].forEach(t=>{
-    const b=document.createElement("button");
-    b.className="chip"+(activeTypes.has(t)?"":" off");
-    b.textContent=TYPES[t]||t;
-    b.onclick=()=>{activeTypes.has(t)?activeTypes.delete(t):activeTypes.add(t);render();};
-    $("tchips").appendChild(b);
-  });
-  $("chips").innerHTML="";
-  for(const k in VENUES){
-    const b=document.createElement("button");
-    b.className="chip"+(active.has(k)?"":" off");
-    b.innerHTML='<span class="dot" style="background:'+VENUES[k].color+'"></span>'+esc(VENUES[k].name);
-    b.onclick=()=>{active.has(k)?active.delete(k):active.add(k);render();};
-    $("chips").appendChild(b);
-  }
+function btn(label,cls,fn,color){
+  const b=document.createElement("button");
+  b.className="chip "+cls;
+  b.innerHTML=(color?'<span class="dot" style="background:'+color+'"></span>':"")+esc(label);
+  b.onclick=fn;return b;
 }
+function chips(){
+  const t=$("tchips"),v=$("chips"),d=$("dchips");
+  t.innerHTML=v.innerHTML=d.innerHTML="";
+  t.appendChild(btn("All types",selT.size===ALLT.length?"on":"off",()=>{selT=pick(selT,ALLT,null);render();}));
+  ALLT.forEach(k=>t.appendChild(btn(TYPES[k]||k,selT.has(k)?"on":"off",()=>{selT=pick(selT,ALLT,k);render();})));
+  v.appendChild(btn("All venues",selV.size===ALLV.length?"on":"off",()=>{selV=pick(selV,ALLV,null);render();}));
+  ALLV.forEach(k=>v.appendChild(btn(VENUES[k].name,selV.has(k)?"on":"off",()=>{selV=pick(selV,ALLV,k);render();},VENUES[k].color)));
+  $("vsum").textContent=selV.size===ALLV.length?"Venues: all ("+ALLV.length+")":"Venue: "+[...selV].map(k=>VENUES[k].name).join(", ");
+  if(DATA.some(e=>e.applaus))d.appendChild(btn("50% off with applaus!",(disc?"on":"off")+" disc",()=>{disc=!disc;render();}));
+}
+function filterText(){
+  const p=[];
+  if(selV.size===1)p.push(VENUES[[...selV][0]].name);
+  if(selT.size===1){const k=[...selT][0];p.push(TYPES[k]||k);}
+  if(disc)p.push("50% off");
+  return p.length?p.join(" · "):"this filter";
+}
+function reset(){selV=new Set(ALLV);selT=new Set(ALLT);disc=false;render();}
+function jumpTo(d){sel=d;view=new Date(d+"T12:00");view.setDate(1);render();}
+
 function card(e){
-  const v=VENUES[e.venue];
-  const when=e.type==="exhibition"?fmt(e.start)+" – "+fmt(e.end):fmt(e.start)+(e.time?" · "+esc(e.time):"");
-  return '<div class="item" style="--c:'+v.color+'"><a href="'+esc(safe(e.url))+'" target="_blank" rel="noopener"><div class="tag">'+esc(TYPES[kind(e)]||kind(e))+'</div><div class="t">'+esc(e.title)+'</div>'+(e.subtitle?'<div class="m">'+esc(e.subtitle)+'</div>':"")+'<div class="m">'+when+'<br>'+esc(v.name)+(v.address?', '+esc(v.address):'')+'</div>'+(e.description?'<div class="m desc">'+esc(e.description)+'</div>':"")+'</a></div>';
+  const v=VENUES[e.venue]||{name:e.venue,color:"#888"};
+  const when=e.type==="exhibition"?(e.ongoing?"On view · listed through "+fmt(e.end):fmt(e.start)+" – "+fmt(e.end)):fmt(e.start)+(e.time?" · "+esc(e.time):"");
+  const badges=(e.applaus?'<span class="badge disc">50% off · applaus!</span>':"")+(e.status?'<span class="badge">'+esc(STATUS[e.status]||e.status)+'</span>':"");
+  return '<div class="item" style="--c:'+v.color+'"><a href="'+esc(safe(e.url))+'" target="_blank" rel="noopener">'
+    +'<div class="tag">'+esc(TYPES[kind(e)]||kind(e))+badges+'</div><div class="t">'+esc(e.title)+'</div>'
+    +(e.subtitle?'<div class="m">'+esc(e.subtitle)+'</div>':"")
+    +'<div class="m">'+when+'<br>'+(e.venue==="other"?esc(e.place||"Winterthur"):esc(v.name)+(v.address?', '+esc(v.address):''))+'</div>'
+    +(e.description?'<div class="m desc">'+esc(e.description)+'</div>':"")+'</a></div>';
 }
 function calendar(){
   const y=view.getFullYear(),m=view.getMonth();
@@ -101,7 +134,8 @@ function calendar(){
   for(let i=0;i<42;i++){
     const d=new Date(start);d.setDate(start.getDate()+i);
     const s=iso(d),items=DATA.filter(e=>on(e,s));
-    const dots=items.filter(e=>e.type==="exhibition").map(e=>'<i style="background:'+VENUES[e.venue].color+'"></i>').join("")+items.filter(e=>e.type!=="exhibition").map(e=>'<i class="ev" style="background:'+VENUES[e.venue].color+'"></i>').join("");
+    const dots=items.filter(e=>e.type==="exhibition").slice(0,3).map(e=>'<i style="background:'+VENUES[e.venue].color+'"></i>').join("")
+      +items.filter(e=>e.type!=="exhibition").slice(0,6).map(e=>'<i class="ev" style="background:'+VENUES[e.venue].color+'"></i>').join("");
     h+='<button class="day'+(d.getMonth()!==m?" out":"")+(s===today?" today":"")+(s===sel?" sel":"")+'" data-d="'+s+'">'+d.getDate()+'<span class="dots">'+dots+'</span></button>';
   }
   $("grid").innerHTML=h;
@@ -109,14 +143,37 @@ function calendar(){
 }
 function detail(){
   $("dlabel").textContent=new Date(sel+"T12:00").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
-  const items=DATA.filter(e=>on(e,sel)).sort((a,b)=>(a.time||"")<(b.time||"")?-1:1);
-  $("detail").innerHTML=items.length?items.map(card).join(""):'<div class="empty">Nothing listed for this day.</div>';
+  const items=DATA.filter(e=>on(e,sel)).sort((a,b)=>((a.type==="exhibition")-(b.type==="exhibition"))||(a.time||"").localeCompare(b.time||""));
+  const box=$("detail");
+  if(items.length){box.innerHTML=items.map(card).join("");return;}
+  const next=DATA.filter(e=>ok(e)&&e.end>sel).sort((a,b)=>a.start<b.start?-1:1)[0];
+  box.innerHTML='<div class="empty">Nothing on this day for '+esc(filterText())+'.</div>';
+  if(next){
+    const b=document.createElement("button");b.className="jump";
+    b.textContent="Next: "+fmtShort(next.start>sel?next.start:sel)+" – "+next.title;
+    b.onclick=()=>jumpTo(next.start>sel?next.start:sel);box.appendChild(b);
+  }
 }
-function now(){
-  const items=DATA.filter(e=>e.type==="exhibition"&&on(e,today)).sort((a,b)=>a.end<b.end?-1:1);
-  $("now").innerHTML=items.length?items.map(card).join(""):'<div class="empty">No current exhibitions for the selected venues.</div>';
+function lists(){
+  const exOn=selT.has("exhibition"),other=[...selT].some(k=>k!=="exhibition");
+  $("nowwrap").style.display=exOn?"":"none";$("upwrap").style.display=other?"":"none";
+  const now=DATA.filter(e=>e.type==="exhibition"&&on(e,today)).sort((a,b)=>a.end<b.end?-1:1);
+  $("now").innerHTML=now.length?now.map(card).join(""):'<div class="empty">No exhibitions on right now for '+esc(filterText())+'.</div>';
+  const up=DATA.filter(e=>e.type!=="exhibition"&&ok(e)&&e.end>=today).sort((a,b)=>(a.start+(a.time||""))<(b.start+(b.time||""))?-1:1).slice(0,8);
+  $("up").innerHTML=up.length?up.map(card).join(""):'<div class="empty">No upcoming shows or events found for '+esc(filterText())+'.</div>';
 }
-function render(){chips();calendar();detail();now();}
+function render(){
+  chips();
+  const any=DATA.some(ok);
+  $("msg").innerHTML="";
+  if(!any){
+    const d=document.createElement("div");d.className="msg";
+    d.textContent="No events found for "+filterText()+". Either nothing is scheduled, or the venue’s page couldn’t be read by the scraper.";
+    const b=document.createElement("button");b.textContent="Show everything";b.onclick=reset;d.appendChild(b);
+    $("msg").appendChild(d);
+  }
+  calendar();detail();lists();
+}
 $("prev").onclick=()=>{view.setMonth(view.getMonth()-1);calendar();};
 $("next").onclick=()=>{view.setMonth(view.getMonth()+1);calendar();};
 </script>

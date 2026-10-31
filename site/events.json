@@ -27,7 +27,7 @@
   },
   "kellertheater": {
    "name": "Kellertheater Winterthur",
-   "address": "Altstadt, 8400 Winterthur"
+   "address": "Marktgasse 53, 8400 Winterthur"
   },
   "zimmer-theater-ariane": {
    "name": "Zimmer-Theater Ariane",
@@ -40,185 +40,89 @@
   "tkz-winterthur": {
    "name": "Theater Kanton Zürich (Winterthur)",
    "address": "Scheideggstrasse 37, Winterthur-Grüze"
+  },
+  "dampfzentrum": {
+   "name": "Dampfzentrum",
+   "address": "Lagerplatz 27, 8400 Winterthur"
+  },
+  "muenzkabinett": {
+   "name": "Münzkabinett (Villa Bühler)",
+   "address": "Lindstrasse 8, 8400 Winterthur"
+  },
+  "uhrenmuseum": {
+   "name": "Uhrenmuseum (Villa Bühler)",
+   "address": "Lindstrasse 8, 8400 Winterthur"
+  },
+  "neuthal": {
+   "name": "Museum Neuthal Industriekultur",
+   "address": ""
+  },
+  "museumschaffen": {
+   "name": "Museum Schaffen",
+   "address": ""
+  },
+  "kyburg": {
+   "name": "Schloss Kyburg",
+   "address": "8314 Kyburg"
+  },
+  "naturmuseum": {
+   "name": "Naturmuseum Winterthur",
+   "address": "Museumstrasse 52, 8400 Winterthur"
+  },
+  "oxyd": {
+   "name": "Oxyd Kunsträume",
+   "address": ""
+  },
+  "technorama": {
+   "name": "Technorama",
+   "address": "Technoramastrasse 1, 8404 Winterthur"
+  },
+  "moersburg": {
+   "name": "Schloss Mörsburg",
+   "address": ""
+  },
+  "hegi": {
+   "name": "Schloss Hegi",
+   "address": "Hegifeldstrasse 125, 8409 Winterthur"
+  },
+  "roemerholz": {
+   "name": "Sammlung Oskar Reinhart «Am Römerholz»",
+   "address": "Haldenstrasse 95, 8400 Winterthur"
+  },
+  "fotostiftung": {
+   "name": "Fotostiftung Schweiz",
+   "address": "Grüzenstrasse 45, 8400 Winterthur"
+  },
+  "gewerbemuseum": {
+   "name": "Gewerbemuseum Winterthur",
+   "address": "Kirchplatz 14, 8400 Winterthur"
+  },
+  "galerie-weiertal": {
+   "name": "Galerie Weiertal",
+   "address": ""
+  },
+  "kunsthalle": {
+   "name": "Kunsthalle Winterthur",
+   "address": "Löwenstrasse 18, 8400 Winterthur"
+  },
+  "fotomuseum": {
+   "name": "Fotomuseum Winterthur",
+   "address": "Grüzenstrasse 44, 8400 Winterthur"
+  },
+  "alte-kaserne": {
+   "name": "Alte Kaserne",
+   "address": "Technikumstrasse 8, 8403 Winterthur"
+  },
+  "lokal": {
+   "name": "Lok.al",
+   "address": "Zeughausstrasse 52, 8400 Winterthur"
+  },
+  "other": {
+   "name": "Other places",
+   "address": ""
   }
  },
  "events": [
-  {
-   "type": "exhibition",
-   "title": "From Gerhard Richter to Mary Heilmann – Abstract Art from Private Collections and the Museum’s Holdings",
-   "start": "2024-02-03",
-   "end": "2024-04-28",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/from-gerhard-richter-to-mary-heilmann/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Michael E. Smith",
-   "start": "2024-02-03",
-   "end": "2024-04-28",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/michael-e-smith/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Bienvenue! – Masterpieces by Cézanne, Van Gogh, and Manet Return to Winterthur",
-   "start": "2024-03-23",
-   "end": "2025-01-05",
-   "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/bienvenue/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Marcel van Eeden – The Villa",
-   "start": "2024-09-21",
-   "end": "2025-03-23",
-   "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/marcel-van-eeden/"
-  },
-  {
-   "type": "exhibition",
-   "title": "December Exhibition – Focus 2024",
-   "start": "2024-11-30",
-   "end": "2025-01-05",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/december-exhibition-focus-2024/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Passing Through – The Collection as an Intermediate Stop: From Monica Bonvicini to Karin Sander",
-   "start": "2025-02-01",
-   "end": "2025-04-27",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/durchzug/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Cast in a New Light – Reopening with Masterpieces from Friedrich to Hodler with Interventions by Koenraad Dedobbeleer",
-   "start": "2025-03-01",
-   "end": "2025-09-07",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/einleuchten/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Pierre-Louis Bouvier – Et ses amis",
-   "start": "2025-03-01",
-   "end": "2025-09-07",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/pierre-louis-bouvier/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Félix Vallotton – Illusions perdues",
-   "start": "2025-04-12",
-   "end": "2025-09-07",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/felix-vallotton/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Re:Wind – Video Art from Carolee Schneemann to Zilla Leutenegger",
-   "start": "2025-05-24",
-   "end": "2025-08-10",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/rewind/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Tony Oursler – Hoisted from the Pit",
-   "start": "2025-05-24",
-   "end": "2025-08-10",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/tony-oursler/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Lorenza Longhi – Fourteenth Manor Art Prize of the Canton of Zurich",
-   "start": "2025-09-05",
-   "end": "2025-11-09",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/lorenza-longhi/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Virginia Overton – Material Girl",
-   "start": "2025-09-05",
-   "end": "2025-11-09",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/virginia-overton/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Nedko Solakov – Being Vallotton",
-   "start": "2025-09-27",
-   "end": "2026-03-01",
-   "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/nedko-solakov/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Reflections from Stable Life – Niklaus Stoecklin | Liselotte Moser | Louisa Gagliardi",
-   "start": "2025-10-04",
-   "end": "2026-02-09",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/stoecklin-moser-gagliardi/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Conrad Meyer – Pioneer of the Swiss Baroque",
-   "start": "2025-11-01",
-   "end": "2026-02-01",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/conrad-meyer/"
-  },
-  {
-   "type": "exhibition",
-   "title": "December exhibition: Overview 2025",
-   "start": "2025-11-22",
-   "end": "2026-01-04",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/dezemberausstellung2025/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Jack Goldstein – Pictures, Sounds and Movies",
-   "start": "2026-01-24",
-   "end": "2026-05-31",
-   "venue": "kmw-stadthaus",
-   "url": "https://www.kmw.ch/en/exhibition/jack-goldstein/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Moments in Time",
-   "start": "2026-02-28",
-   "end": "2026-08-02",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/momente-der-zeit/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Simon Starling – The Artist, Wearing a Mask of Adolph Menzel, Holds Plaster Casts of the Ambidextrous German Painter’s Left and Right Hands (and Other Interventions)",
-   "start": "2026-02-28",
-   "end": "2026-07-05",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/simon-starling/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Claire Fontaine – Sugar Free",
-   "start": "2026-03-14",
-   "end": "2026-06-14",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/claire-fontaine/"
-  },
-  {
-   "type": "exhibition",
-   "title": "Tout est lumière – Cezanne, Van Gogh, Matisse, and the Painters of the South",
-   "start": "2026-03-28",
-   "end": "2026-08-30",
-   "venue": "kmw-flora",
-   "url": "https://www.kmw.ch/en/exhibition/tout-est-lumiere/"
-  },
   {
    "type": "exhibition",
    "title": "Heidi Bucher – Liesl Raff – Closer",
@@ -236,22 +140,6 @@
    "venue": "kmw-reinhart",
    "url": "https://www.kmw.ch/en/exhibition/zur-sonne-zur-freiheit/",
    "time": null
-  },
-  {
-   "type": "exhibition",
-   "title": "3 x 2: Focus on Winterthur",
-   "start": "2026-08-14",
-   "end": "2026-09-06",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur/"
-  },
-  {
-   "type": "exhibition",
-   "title": "3 x 2: Focus on Winterthur",
-   "start": "2026-09-11",
-   "end": "2026-10-04",
-   "venue": "kmw-reinhart",
-   "url": "https://www.kmw.ch/en/exhibition/3-x-2-fokus-winterthur-2/"
   },
   {
    "type": "exhibition",
@@ -273,7 +161,7 @@
   },
   {
    "type": "exhibition",
-   "title": "Mona Hatoum – Routes of Dissoncance",
+   "title": "Mona Hatoum – Routes of Dissonance",
    "start": "2026-10-03",
    "end": "2027-01-31",
    "venue": "kmw-stadthaus",
@@ -282,7 +170,7 @@
   },
   {
    "type": "exhibition",
-   "title": "3 x 2: Focus on Winterthur",
+   "title": "3 x 2: Focus on Winterthur",
    "start": "2026-10-09",
    "end": "2026-11-01",
    "venue": "kmw-reinhart",
@@ -318,31 +206,80 @@
    "venue": "zimmer-theater-ariane",
    "url": "https://applaus-winterthur.ch/vorstellung/wer-hat-angst-vor-leo-trotzki/",
    "subtitle": "Jubiläumsproduktion 15 Jahre Theater Ariane",
-   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser..."
+   "description": "Die Akte «Ramón Mercader» – Ein Leben zwischen Fakten und Fiktion, zwischen politischer Intrige und verratener Liebe. Mitreissend erzählt dieser...",
+   "applaus": true
   },
   {
-   "type": "show",
-   "category": "music",
+   "type": "event",
    "title": "lass mir dein lachen",
    "start": "2026-10-25",
    "end": "2026-10-25",
    "time": "17:30",
    "venue": "kellertheater",
-   "url": "https://applaus-winterthur.ch/vorstellung/lass-mir-dein-lachen/",
-   "subtitle": "Mit Trianguli | Musikalische Lesung",
-   "description": "Ein Abend der Poesie und Musik, bei dem die Werke des chilenischen Dichters Pablo Neruda im Mittelpunkt stehen."
+   "url": "https://keller.theater/events/lass-mir-dein-lachen/",
+   "subtitle": "Musikalische Lesung – Mit TRIANGULI",
+   "applaus": true
   },
   {
    "type": "show",
+   "title": "Häsch nid gseit",
+   "start": "2026-10-26",
+   "end": "2026-10-26",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/haesch-nid-gseit/",
+   "category": "comedy",
+   "subtitle": "Die frechste Comedy-Show der Schweiz auf Tour",
+   "description": "Nach zahlreichen ausverkauften Shows geht «Häsch nid gseit!» jetzt auf Schweiz-Tournee.",
+   "status": "Ausverkauft"
+  },
+  {
+   "type": "event",
+   "title": "auf buchfühlung – monica bürki",
+   "start": "2026-10-27",
+   "end": "2026-10-27",
+   "time": "19:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/auf-buchfuehlung-monica-buerki/",
+   "subtitle": "Autor:innen im Rampenlicht – Lesung, Gespräch & Apéro"
+  },
+  {
+   "type": "show",
+   "title": "Chaostheater Oropax",
+   "start": "2026-10-27",
+   "end": "2026-10-27",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/chaostheater-oropax/",
+   "category": "comedy",
+   "subtitle": "Zwei wie kein anderer",
+   "description": "Zurück auf der Casinotheater-Bühne mit neuer Show.",
+   "status": "Letzte Plätze"
+  },
+  {
+   "type": "show",
+   "title": "Als die Steine noch Vögel Waren",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "14:30",
+   "venue": "figurentheater",
+   "url": "https://www.figurentheater-winterthur.ch/de/spielplan/als-die-steine-noch-vogel-waren-a518/",
    "category": "kids",
+   "subtitle": "ab 6 Jahren",
+   "description": "Figurenspiel nach dem Roman von Marja-Leena Lembcke"
+  },
+  {
+   "type": "show",
    "title": "Die kleinste Gabel der Welt",
    "start": "2026-10-28",
    "end": "2026-10-28",
    "time": "15:00",
    "venue": "theater-am-gleis",
-   "url": "https://applaus-winterthur.ch/vorstellung/die-kleinste-gabel-der-welt/",
-   "subtitle": "Das Büro mit dem lustigen Namen | Kindertheater",
-   "description": "Darf man einen Menschen verurteilen, der etwas geklaut hat, das so klein ist, dass man es gar nicht sehen kann? Ab 5 Jahren."
+   "url": "https://theater-am-gleis.ch/spielplan/die-kleinste-gabel-der-welt",
+   "category": "kids",
+   "subtitle": "Das Büro mit dem lustigen Namen",
+   "description": "Darf man einen Menschen verurteilen, der etwas geklaut hat, das so klein ist, dass man es gar nicht sehen kann? Ab 5 Jahren.",
+   "applaus": true
   },
   {
    "type": "show",
@@ -356,37 +293,235 @@
   },
   {
    "type": "show",
-   "category": "theater",
-   "title": "The Journey",
+   "title": "Chaostheater Oropax",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/chaostheater-oropax/",
+   "category": "comedy",
+   "subtitle": "Zwei wie kein anderer",
+   "description": "Zurück auf der Casinotheater-Bühne mit neuer Show.",
+   "status": "Letzte Plätze"
+  },
+  {
+   "type": "event",
+   "title": "Offene Werkstatt",
    "start": "2026-10-29",
    "end": "2026-10-29",
-   "time": "19:30",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/the-journey"
+   "time": "18:00",
+   "venue": "figurentheater",
+   "url": "https://www.figurentheater-winterthur.ch/de/spielplan/offene-werkstatt-a6be/",
+   "subtitle": "Jugendiche und Erwachsene",
+   "description": "Endlich ein eigenes Projekt realisieren!"
+  },
+  {
+   "type": "exhibition",
+   "title": "Andri Pol – Poliversum",
+   "start": "2026-10-31",
+   "end": "2026-11-01",
+   "time": null,
+   "venue": "fotomuseum",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1088867/Andri-Pol.html",
+   "ongoing": true
+  },
+  {
+   "type": "exhibition",
+   "title": "Rebecca Solari",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": null,
+   "venue": "oxyd",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1084797/Rebecca-Solari.html",
+   "ongoing": true
+  },
+  {
+   "type": "event",
+   "title": "Boutique Nepomuk - Lagerverkauf",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "10:00",
+   "venue": "alte-kaserne",
+   "url": "https://altekaserne.ch/veranstaltung/boutique-nep"
   },
   {
    "type": "show",
-   "category": "comedy",
+   "title": "Circus Monti",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "15:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1236540/Circus-Monti.html",
+   "category": "kids",
+   "place": "Teuchelweiher"
+  },
+  {
+   "type": "show",
+   "title": "Die rote Zora",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "15:45",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1203471/Die-rote-Zora.html",
+   "category": "film",
+   "place": "Kino Cameo"
+  },
+  {
+   "type": "show",
+   "title": "Taschenlampenrundgang für Familien",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "17:30",
+   "venue": "kyburg",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1089364/Taschenlampen.html",
+   "category": "kids"
+  },
+  {
+   "type": "show",
+   "title": "Wer hat Angst vor Leo Trotzki?",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1232464/Leo-Trotzki.html",
+   "category": "theater"
+  },
+  {
+   "type": "event",
+   "title": "Jäger*innen und Sammler*innen",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "19:30",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1212367/Jaeger.html",
+   "category": "talk",
+   "place": "gate27 – Auditorium"
+  },
+  {
+   "type": "show",
+   "title": "Marc Sway",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/marc-sway/",
+   "category": "music",
+   "subtitle": "Roots-Unplugged: Ein Abend, der bleibt",
+   "description": "Inmitten eines feinfühligen Trio präsentiert der charismatischste Entertainer der Schweiz einen Abend voller Emotionen.",
+   "status": "Ausverkauft"
+  },
+  {
+   "type": "show",
+   "title": "90s are now",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "22:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1212388/90s-are-now.html",
+   "category": "party",
+   "place": "Salzhaus"
+  },
+  {
+   "type": "show",
+   "title": "Dodo Hug",
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "time": "17:00",
+   "venue": "casinotheater",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1121932/Dodo-Hug.html",
+   "category": "music"
+  },
+  {
+   "type": "event",
+   "title": "Sofalesung mit Janica Irina Madjar",
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "time": "17:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1203665/Sofalesung.html",
+   "category": "talk",
+   "place": "Sofalesung"
+  },
+  {
+   "type": "show",
    "title": "Theatersport",
    "start": "2026-11-02",
    "end": "2026-11-02",
    "time": "20:00",
    "venue": "theater-am-gleis",
-   "url": "https://applaus-winterthur.ch/vorstellung/theatersport-21/",
+   "url": "https://theater-am-gleis.ch/spielplan/theatersport-40",
+   "category": "theater",
    "subtitle": "Badumts vs. Drei-Vierteltakt",
-   "description": "Zwei Impro-Profis, eine neue Gastmannschaft. Sie alle bringen jahrelange Impro-Erfahrung und ihren ganz eigenen Stil mit."
+   "description": "Zwei Impro-Profis, eine neue Gastmannschaft: Drei-Vierteltakt stehen als Duo auf der Bühne.",
+   "applaus": true
   },
   {
    "type": "event",
-   "category": null,
-   "title": "30. Internationale Kurzfilmtage – Festivaleröffnung",
+   "title": "Apéro Inklusiv - Zeit zu reden",
    "start": "2026-11-03",
    "end": "2026-11-03",
-   "time": "20:15",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/kurzfilmtage-festivaleroeffnung"
+   "time": "18:00",
+   "venue": "other",
+   "url": "https://stadt.winterthur.ch/veranstaltung/apéro-inklus",
+   "place": "Stadtbibliothek Winterthur, Obere Kirchgasse 6, Raum tiefrot"
   },
   {
+   "type": "show",
+   "title": "Schneewittli",
+   "start": "2026-11-04",
+   "end": "2026-11-04",
+   "time": "13:30",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/schneewittli/",
+   "category": "kids",
+   "subtitle": "Das Familienmärchen mit Herz und Biss",
+   "description": "«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?»",
+   "status": "Preview"
+  },
+  {
+   "type": "event",
+   "title": "Beratung rund um Produktionsfragen",
+   "start": "2026-11-04",
+   "end": "2026-11-04",
+   "time": "14:00",
+   "venue": "theater-am-gleis",
+   "url": "https://theater-am-gleis.ch/spielplan/beratung-5-9",
+   "subtitle": "artFAQ",
+   "description": "artFAQ bietet kostenlose Beratungen ohne Termine während 3 Stunden in Winterthur an."
+  },
+  {
+   "type": "show",
+   "title": "The Crocks Albumtaufe im Lok.al!",
+   "start": "2026-11-05",
+   "end": "2026-11-05",
+   "time": "19:00",
+   "venue": "lokal",
+   "url": "https://lok.al/events/the-crocks/",
+   "category": "music",
+   "description": "THE CROCKS taufen ihr neues Album! Nach der EP von 2024 folgt jetzt «From Devil With Love»."
+  },
+  {
+   "type": "event",
+   "title": "Girls' Day",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "10:00",
+   "venue": "other",
+   "url": "https://stadt.winterthur.ch/veranstaltung/girls'-day",
+   "place": "Sportanlage Oberseen, Gotzenwilerstrasse 12"
+  },
+  {
+   "type": "event",
+   "title": "VOM ZUFALLSFUND ZUM KULTURGUT",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "14:00",
+   "venue": "muenzkabinett",
+   "url": "https://stadt.winterthur.ch/veranstaltung/vom-zufallsf"
+  },
+  {
+   "type": "event",
+   "title": "Humaniz-Arte Mitmischen!: Second Skin, Living Stories, Human Museum",
    "start": "2026-11-08",
    "end": "2026-11-08",
    "time": "15:00–17:00",
@@ -403,19 +538,107 @@
    "venue": "theater-am-gleis",
    "url": "https://applaus-winterthur.ch/vorstellung/plattentaufe-stereogefuehle/",
    "subtitle": "Mit Lele Javel | Musik",
-   "description": "Die Band ist zurück mit neuem Album und neuer Formation. Die Indie-Kraut-Pop-Scheibe «Stereogefühle» ist verträumter und sphärischer denn je."
+   "description": "Die Band ist zurück mit neuem Album und neuer Formation. Die Indie-Kraut-Pop-Scheibe «Stereogefühle» ist verträumter und sphärischer denn je.",
+   "applaus": true
+  },
+  {
+   "type": "event",
+   "title": "Bistro Taktvoll",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "time": "18:00",
+   "venue": "alte-kaserne",
+   "url": "https://stadt.winterthur.ch/veranstaltung/bistro-taktv"
   },
   {
    "type": "show",
+   "title": "lüdi singt zur maschine",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/luedi-singt-zur-maschine/",
+   "category": "comedy",
+   "subtitle": "Comedy-Performance – Mit Dr. Lüdi"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "show",
+   "title": "GlobalDance mit Toxidi im Lok.al!",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "19:30",
+   "venue": "lokal",
+   "url": "https://lok.al/events/globaldance/",
+   "category": "party",
+   "description": "Liebe GlobalDance Fans, Samstag, 14. November 26, Türöffnung 19.30, Konzert 20.30 TOXIDI."
+  },
+  {
+   "type": "show",
+   "title": "Grrrls",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "time": "19:00",
+   "venue": "tkz-winterthur",
+   "url": "https://theaterkantonzuerich.ch/spielplan/grrrls/",
+   "category": "kids",
+   "subtitle": "Uta Bierbaum",
+   "status": "Premiere"
+  },
+  {
+   "type": "show",
+   "title": "alles ist gross",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/alles-ist-gross/",
    "category": "theater",
+   "subtitle": "Eigenproduktion – Von Zsuzsa Bánk"
+  },
+  {
+   "type": "show",
+   "title": "34. Tanzfestival Winterthur",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "time": "19:30",
+   "venue": "theater-am-gleis",
+   "url": "https://theater-am-gleis.ch/spielplan/34-tanzfestival-winterthur",
+   "category": "dance",
+   "subtitle": "Fr 20. bis Sa 28.11.",
+   "description": "Das Tanzfestival präsentiert aktuelle zeitgenössische Tanzstücke."
+  },
+  {
+   "type": "show",
    "title": "Sherlock Holmes: Der Fall Moriarty",
    "start": "2026-11-20",
    "end": "2026-11-20",
    "time": "20:00",
    "venue": "tkz-winterthur",
-   "url": "https://applaus-winterthur.ch/vorstellung/sherlock-holmes-der-fall-moriarty/",
-   "subtitle": "Von Ken Ludwig | Schweizer Erstaufführung",
-   "description": "Sherlock Holmes und Dr. Watson haben einen neuen Auftrag: Die Ermittlungen führen in einen Kriminalfall internationalen Formats. Es geht um Krieg oder..."
+   "url": "https://theaterkantonzuerich.ch/spielplan/sherlock-holmes-der-fall-moriarty/",
+   "category": "theater",
+   "subtitle": "Von Ken Ludwig",
+   "applaus": true
+  },
+  {
+   "type": "show",
+   "title": "Flower Power im Lok.al!",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "21:00",
+   "venue": "lokal",
+   "url": "https://lok.al/events/flower-power/",
+   "category": "party",
+   "description": "Peace, Love & good Vibes! Wir feiern die Flower-Power-Ära mit DJ Ghost Start: 21:00 Eintritt: 15 CHF"
   },
   {
    "type": "show",
@@ -427,17 +650,30 @@
    "venue": "theater-winterthur",
    "url": "https://applaus-winterthur.ch/vorstellung/familie-floez-dr-nest/",
    "subtitle": "Maskentheater-Performance ohne Worte",
-   "description": "Ein Stück über die Zerbrechlichkeit, die Beweglichkeit und die schöpferische Kraft der menschlichen Psyche."
+   "description": "Ein Stück über die Zerbrechlichkeit, die Beweglichkeit und die schöpferische Kraft der menschlichen Psyche.",
+   "applaus": true
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
+   "title": "Escape Dinner",
    "start": "2026-11-26",
    "end": "2026-11-26",
-   "time": "17:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "time": "19:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/escape-dinner/",
+   "subtitle": "Ein kulinarischer Abend für Rätselfans",
+   "description": "Beim Escape Dinner verbinden sich gehobene Kulinarik und spannende Rätsel.",
+   "status": "Ausverkauft"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
   },
   {
    "type": "show",
@@ -449,7 +685,19 @@
    "venue": "zimmer-theater-ariane",
    "url": "https://applaus-winterthur.ch/vorstellung/der-kirschgarten-2/",
    "subtitle": "Nach Anton Tschechow",
-   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten."
+   "description": "Melancholisch-humorvoll wird über den Bau von «Wo-wo-Wohnungen», rechtmässigen Besitz und Biodiversität gestritten.",
+   "applaus": true
+  },
+  {
+   "type": "event",
+   "title": "peter fratton – der mensch hinter den ideen",
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "time": "19:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/peter-fratton/",
+   "subtitle": "Entwicklungsraum Live-Podcast",
+   "status": "Ausverkauft"
   },
   {
    "type": "show",
@@ -461,17 +709,53 @@
    "venue": "theater-am-gleis",
    "url": "https://applaus-winterthur.ch/vorstellung/rythmosphere/",
    "subtitle": "Adrien Rako, Daniel Borak, Tamara Mancini/CludaCo | Tanz",
-   "description": "Bodypercussion, Tanz und Live-Musik treten in einen lebendigen Dialog."
+   "description": "Bodypercussion, Tanz und Live-Musik treten in einen lebendigen Dialog.",
+   "applaus": true
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
-   "start": "2026-12-11",
-   "end": "2026-12-11",
-   "time": "17:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "show",
+   "title": "Forever Young",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/forever-young/",
+   "category": "theater",
+   "subtitle": "Eine musikalische Komödie mit Hits der 70er bis heute",
+   "description": "Die beliebte musikalische Komödie kehrt auf vielseitigen Wunsch zurück."
+  },
+  {
+   "type": "show",
+   "title": "Forever Young",
+   "start": "2026-12-28",
+   "end": "2026-12-28",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/forever-young/",
+   "category": "theater",
+   "subtitle": "Eine musikalische Komödie mit Hits der 70er bis heute",
+   "description": "Die beliebte musikalische Komödie kehrt auf vielseitigen Wunsch zurück.",
+   "status": "Clubangebot"
   },
   {
    "type": "show",
@@ -483,27 +767,133 @@
    "venue": "theater-winterthur",
    "url": "https://applaus-winterthur.ch/vorstellung/der-vogelhaendler/",
    "subtitle": "Operette von Carl Zeller",
-   "description": "Die berühmte Operette verspricht einen vergnüglichen Abend mit emotionalen Turbulenzen und musikalischen Ohrwürmern."
+   "description": "Die berühmte Operette verspricht einen vergnüglichen Abend mit emotionalen Turbulenzen und musikalischen Ohrwürmern.",
+   "applaus": true
+  },
+  {
+   "type": "show",
+   "title": "Forever Young",
+   "start": "2026-12-30",
+   "end": "2026-12-30",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/forever-young/",
+   "category": "theater",
+   "subtitle": "Eine musikalische Komödie mit Hits der 70er bis heute",
+   "description": "Die beliebte musikalische Komödie kehrt auf vielseitigen Wunsch zurück."
+  },
+  {
+   "type": "show",
+   "title": "heitere lieder zur einordnung der gegenwart",
+   "start": "2027-01-03",
+   "end": "2027-01-03",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/heitere-lieder/",
+   "category": "music",
+   "subtitle": "Liedermacher-Konzert – Mit Matthias Kirchner"
+  },
+  {
+   "type": "show",
+   "title": "FRI3SER – Album-Release-Show",
+   "start": "2027-01-08",
+   "end": "2027-01-08",
+   "time": "20:00",
+   "venue": "theater-am-gleis",
+   "url": "https://theater-am-gleis.ch/spielplan/fri3ser-album-release-show",
+   "category": "music",
+   "subtitle": "Fisch und Vogel",
+   "description": "Im Theater am Gleis präsentieren FRI3SER ihr gleichnamiges Debütalbum."
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "show",
+   "title": "Bundesordner",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": "20:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/bundesordner/",
+   "category": "comedy",
+   "subtitle": "Ein satirischer Jahresrückblick",
+   "description": "Anfang Jahr blickt der Bundesordner satirisch zurück."
+  },
+  {
+   "type": "show",
+   "title": "Bundesordner",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "time": "17:00",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/bundesordner/",
+   "category": "comedy",
+   "subtitle": "Ein satirischer Jahresrückblick",
+   "description": "Anfang Jahr blickt der Bundesordner satirisch zurück."
+  },
+  {
+   "type": "show",
+   "title": "Die Katze im Sack",
    "start": "2027-01-14",
    "end": "2027-01-14",
-   "time": "17:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "time": "20:00",
+   "venue": "tkz-winterthur",
+   "url": "https://theaterkantonzuerich.ch/spielplan/die-katze-im-sack/",
+   "category": "theater",
+   "subtitle": "Von Georges Feydeau",
+   "status": "Premiere"
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
-   "start": "2027-02-05",
-   "end": "2027-02-05",
-   "time": "17:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "show",
+   "title": "Geisterbahn!",
+   "start": "2027-01-27",
+   "end": "2027-01-27",
+   "time": "10:00",
+   "venue": "theater-am-gleis",
+   "url": "https://theater-am-gleis.ch/spielplan/geisterbahn",
+   "category": "kids",
+   "subtitle": "Figurentheater Matou",
+   "description": "In der Geisterbahn ist eine Stelle ausgeschrieben und es meldet sich ….. ein Zwergpony!",
+   "status": "Ausverkauft"
+  },
+  {
+   "type": "show",
+   "title": "Sein oder Schein",
+   "start": "2027-01-28",
+   "end": "2027-01-28",
+   "time": "20:15",
+   "venue": "figurentheater",
+   "url": "https://www.figurentheater-winterthur.ch/de/spielplan/sein-oder-schein-cebc/",
+   "category": "theater",
+   "description": "Ein Dialog mit der Stadt DALANG & Co. / ZÜRICH"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-02-13",
+   "end": "2027-02-13",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
   },
   {
    "type": "show",
@@ -515,17 +905,62 @@
    "venue": "theater-winterthur",
    "url": "https://applaus-winterthur.ch/vorstellung/junior-ballett-zuerich-art-matters/",
    "subtitle": "Zweiteiliger Ballettabend | Uraufführung",
-   "description": "Der neue Abend des Junior Balletts entsteht in engem Dialog mit dem Kunsthaus Zürich und dem Kunstmuseum Winterthur."
+   "description": "Der neue Abend des Junior Balletts entsteht in engem Dialog mit dem Kunsthaus Zürich und dem Kunstmuseum Winterthur.",
+   "applaus": true
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
-   "start": "2027-03-06",
-   "end": "2027-03-06",
-   "time": "10:30",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-02-27",
+   "end": "2027-02-27",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "show",
+   "title": "Theatersport",
+   "start": "2027-03-02",
+   "end": "2027-03-02",
+   "time": "19:30",
+   "venue": "casinotheater",
+   "url": "https://www.casinotheater.ch/spielplan/produktion/theatersport/",
+   "category": "comedy",
+   "subtitle": "Die Improvisations-Show",
+   "description": "Theatersport ist ein rasanter, origineller Wettkampf."
+  },
+  {
+   "type": "show",
+   "title": "Des Kaisers Neue Kleider",
+   "start": "2027-03-10",
+   "end": "2027-03-10",
+   "time": "14:30",
+   "venue": "figurentheater",
+   "url": "https://www.figurentheater-winterthur.ch/de/spielplan/des-kaisers-neue-kleider-4bb7/",
+   "category": "kids",
+   "subtitle": "AB 4 JAHREN",
+   "description": "Frei nach Hans Christian Andersen SCHÄFER-WAGNER PRODUKTION / BERLIN, D"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-03-13",
+   "end": "2027-03-13",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-03-27",
+   "end": "2027-03-27",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
   },
   {
    "type": "show",
@@ -537,27 +972,38 @@
    "venue": "casinotheater",
    "url": "https://applaus-winterthur.ch/vorstellung/falsch-verbunden-mit-dem-chaellerfon-auf-die-buehne/",
    "subtitle": "Chäller Live | Comedy",
-   "description": "In seinem neuen Programm bringt der Comedian seine bekannten Scherzanrufe direkt auf die Bühne."
+   "description": "In seinem neuen Programm bringt der Comedian seine bekannten Scherzanrufe direkt auf die Bühne.",
+   "applaus": true
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
-   "start": "2027-04-07",
-   "end": "2027-04-07",
-   "time": "17:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-04-10",
+   "end": "2027-04-10",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
   },
   {
    "type": "event",
-   "category": null,
-   "title": "Theaterführung",
-   "start": "2027-05-19",
-   "end": "2027-05-19",
-   "time": "17:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/fuehrungen"
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "event",
+   "title": "Open day (2nd & 4th Saturday of the month)",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": "13:00",
+   "venue": "dampfzentrum",
+   "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
+   "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
   }
  ]
 }
