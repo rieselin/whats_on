@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T12:23:33+00:00",
+ "updated": "2026-11-12T13:30:28+00:00",
  "venues": {
   "kmw-stadthaus": {
    "name": "KMW · Beim Stadthaus",
@@ -396,8 +396,8 @@
   {
    "type": "exhibition",
    "title": "Andri Pol – Poliversum",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
    "time": null,
    "venue": "fotomuseum",
    "url": "https://www.coucoumagazin.ch/de/kalender/1088867/Andri-Pol-Poliversum.html",
@@ -406,8 +406,8 @@
   {
    "type": "exhibition",
    "title": "Ausstellung: Zeitgenössische Kunst von Stelios Stylianou",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
    "time": null,
    "venue": "other",
    "url": "https://www.coucoumagazin.ch/de/kalender/1217209/Ausstellung-Zeitgenoessische-Kunst-von-Stelios-Stylianou.html",
@@ -415,10 +415,20 @@
    "ongoing": true
   },
   {
+   "type": "event",
+   "title": "B.ARBIE in Not",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": null,
+   "venue": "other",
+   "url": "https://www.cityquest-games.de",
+   "place": "Winterthur"
+  },
+  {
    "type": "exhibition",
    "title": "COALMINE – Ein Kulturbetrieb der Volkart Stiftung",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
    "time": null,
    "venue": "other",
    "url": "https://www.coucoumagazin.ch/de/kalender/1215524/COALMINE-Ein-Kulturbetrieb-der-Volkart-Stiftung.html",
@@ -428,8 +438,8 @@
   {
    "type": "exhibition",
    "title": "Die Sammlung Oskar Reinhart am Römerholz",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
    "time": null,
    "venue": "roemerholz",
    "url": "https://www.coucoumagazin.ch/de/kalender/69013/Die-Sammlung-Oskar-Reinhart-am-Roemerholz.html",
@@ -438,8 +448,8 @@
   {
    "type": "exhibition",
    "title": "Erinnerungstank Haldengut – Wir zapfen Geschichte!",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
    "time": null,
    "venue": "museumschaffen",
    "url": "https://www.coucoumagazin.ch/de/kalender/1121975/Erinnerungstank-Haldengut-Wir-zapfen-Geschichte.html",
@@ -448,349 +458,12 @@
   {
    "type": "exhibition",
    "title": "Gastspiel: Die Anfänge der Digitaluhr – Zwölf Sprungziffernuhren aus der Sammlung Alex Kuhn",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
    "time": null,
    "venue": "uhrenmuseum",
    "url": "https://www.coucoumagazin.ch/de/kalender/1217250/Gastspiel-Die-Anfaenge-der-Digitaluhr-Zwoelf-Sprungziffernuhren-aus-der-Sammlung-Alex-Kuhn.html",
    "ongoing": true
-  },
-  {
-   "type": "event",
-   "title": "Moderne Reloaded",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": null,
-   "venue": "kmw-stadthaus",
-   "url": "https://kmw.ch"
-  },
-  {
-   "type": "event",
-   "title": "Mona Hatoum",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": null,
-   "venue": "kmw-stadthaus",
-   "url": "https://kmw.ch"
-  },
-  {
-   "type": "exhibition",
-   "title": "Next Relations – Zukunft Gestalten",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
-   "time": null,
-   "venue": "gewerbemuseum",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1209451/Next-Relations-Zukunft-Gestalten.html",
-   "ongoing": true
-  },
-  {
-   "type": "exhibition",
-   "title": "Rebecca Solari",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
-   "time": null,
-   "venue": "oxyd",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1084797/Rebecca-Solari.html",
-   "ongoing": true
-  },
-  {
-   "type": "exhibition",
-   "title": "Spiegeleien",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
-   "time": null,
-   "venue": "technorama",
-   "url": "https://www.coucoumagazin.ch/de/kalender/28313/Spiegeleien.html",
-   "ongoing": true
-  },
-  {
-   "type": "exhibition",
-   "title": "Universum der tickenden Handwerkskunst – die Sammlung Konrad Kellenberger",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
-   "time": null,
-   "venue": "uhrenmuseum",
-   "url": "https://www.coucoumagazin.ch/de/kalender/683741/Universum-der-tickenden-Handwerkskunst-die-Sammlung-Konrad-Kellenberger.html",
-   "ongoing": true
-  },
-  {
-   "type": "exhibition",
-   "title": "Zeit der kleinen Uhren – die Sammlung Oscar Schwank",
-   "start": "2026-11-11",
-   "end": "2026-11-18",
-   "time": null,
-   "venue": "uhrenmuseum",
-   "url": "https://www.coucoumagazin.ch/de/kalender/683742/Zeit-der-kleinen-Uhren-die-Sammlung-Oscar-Schwank.html",
-   "ongoing": true
-  },
-  {
-   "type": "event",
-   "title": "B.ARBIE in Not",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "09:00",
-   "venue": "other",
-   "url": "https://www.cityquest-games.de",
-   "place": "Stadtkirche"
-  },
-  {
-   "type": "event",
-   "title": "ElKi Circus mit Lara Schawalder",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "09:00",
-   "venue": "other",
-   "url": "https://waslauft.in/winterthur",
-   "place": "Sternen Zauberei"
-  },
-  {
-   "type": "event",
-   "title": "Harry P.Otter und die Zauberprüfung",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "09:00",
-   "venue": "other",
-   "url": "https://www.cityquest-games.de",
-   "place": "Stadtkirche"
-  },
-  {
-   "type": "event",
-   "title": "Kunst Museum – Beim Stadthaus",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "10:00",
-   "venue": "kmw-stadthaus",
-   "url": "https://kmw.ch"
-  },
-  {
-   "type": "event",
-   "title": "Kunst Museum – Reinhart am Stadtgarten",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "10:00",
-   "venue": "kmw-reinhart",
-   "url": "https://kmw.ch"
-  },
-  {
-   "type": "event",
-   "title": "Kunst Museum – Villa Flora",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "10:00",
-   "venue": "kmw-flora",
-   "url": "https://kmw.ch"
-  },
-  {
-   "type": "event",
-   "title": "MeetByChance - Singles treffen «zufällig» Singles",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "10:00",
-   "venue": "other",
-   "url": "https://waslauft.in/winterthur",
-   "place": "Altstadt"
-  },
-  {
-   "type": "event",
-   "title": "Naturmuseum Winterthur",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "10:00",
-   "venue": "naturmuseum",
-   "url": "https://naturmuseum.ch"
-  },
-  {
-   "type": "event",
-   "title": "Offenes Atelier in der Sternenzauberei",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "14:00",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1212372/Offenes-Atelier-in-der-Sternenzauberei.html",
-   "place": "Sternenzauberei"
-  },
-  {
-   "type": "show",
-   "title": "Hasenmama. Eine Bruno-Geschichte. Ausverkauft!",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "15:00",
-   "venue": "theater-am-gleis",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1223414/Hasenmama-Eine-Bruno-Geschichte-Ausverkauft.html",
-   "category": "kids",
-   "applaus": true
-  },
-  {
-   "type": "event",
-   "title": "Vortragsstunde - Gitarre",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "17:30",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1239969/Vortragsstunde-Gitarre.html",
-   "category": "talk",
-   "place": "Konservatorium"
-  },
-  {
-   "type": "show",
-   "title": "Moscas",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "18:00",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1238257/Moscas.html",
-   "category": "film",
-   "place": "Kino Cameo"
-  },
-  {
-   "type": "event",
-   "title": "Tanzkurs für Kinder & Jugendliche – Social Dance, 9–15 Jahre",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "18:00",
-   "venue": "other",
-   "url": "https://waslauft.in/winterthur",
-   "place": "Schulhaus Geiselweid"
-  },
-  {
-   "type": "event",
-   "title": "Intuitives Malen",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "18:30",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1223881/Intuitives-Malen.html",
-   "place": "Sternenzauberei"
-  },
-  {
-   "type": "event",
-   "title": "Buchvernissage «Ohne Flugzeug in die Ferne» im Lok.al!",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "19:00",
-   "venue": "lokal",
-   "url": "https://lok.al/events/buchvernissage-ohne-flugzeug-in-die-ferne-im-lok-al/",
-   "category": "talk",
-   "description": "Klimabewusst Reisen: Buchvernissage «Ohne Flugzeug in die Ferne» Mittwoch, 11. November 2026, 19.00 – ca. 20.30 Uhr Die Welt bereisen, ohne zu fliegen? Lässt sich [...]"
-  },
-  {
-   "type": "event",
-   "title": "Drink + Draw",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "19:00",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1230832/Drink-Draw.html",
-   "place": "Kraftfeld"
-  },
-  {
-   "type": "event",
-   "title": "Glühabend",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "19:00",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1240421/Gluehabend.html",
-   "place": "Gleiserei"
-  },
-  {
-   "type": "show",
-   "title": "Melodie",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "19:00",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1201904/Melodie.html",
-   "category": "film",
-   "place": "Coalmine"
-  },
-  {
-   "type": "event",
-   "title": "Pintscher & Brahms",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "19:30",
-   "venue": "other",
-   "url": "https://stadthaus.winterthur.ch",
-   "place": "Stadthaus"
-  },
-  {
-   "type": "show",
-   "title": "Charles Nguela",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:00",
-   "venue": "casinotheater",
-   "url": "https://www.casinotheater.ch/spielplan/produktion/charles-nguela/",
-   "category": "comedy",
-   "subtitle": "Timing",
-   "description": "Zusatzshow am SA 20. JUN, 17 Uhr Charles Nguela, Gewinner der beiden Swiss Comedy Awards 2022 – bester Comedy Act und Publikumsliebling kommt gleich für zwei Vorstellungen zurück nach Winterthur. Im Gepäck…",
-   "status": "Ausverkauft"
-  },
-  {
-   "type": "show",
-   "title": "Meghadootam – der Wolkenbote",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:00",
-   "venue": "theater-winterthur",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1231048/Meghadootam-der-Wolkenbote.html",
-   "category": "music"
-  },
-  {
-   "type": "event",
-   "title": "Vanessa Hüppin und Valerie von Bechtolsheim",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:00",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1214432/Vanessa-Hueppin-und-Valerie-von-Bechtolsheim.html",
-   "category": "talk",
-   "place": "Portier"
-  },
-  {
-   "type": "show",
-   "title": "Christine",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:15",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242514/Christine.html",
-   "category": "film",
-   "place": "Kino Cameo"
-  },
-  {
-   "type": "show",
-   "title": "Christine / Einführung von Julius Schmidt (Kino Cameo)",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:15",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1225410/Christine-Einfuehrung-von-Julius-Schmidt-Kino-Cameo.html",
-   "category": "film",
-   "place": "Kino Cameo"
-  },
-  {
-   "type": "show",
-   "title": "Hans Theessink – «Roots & Blues»",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:15",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1239099/Hans-Theessink-Roots-Blues.html",
-   "category": "music",
-   "place": "Esse Musicbar"
-  },
-  {
-   "type": "show",
-   "title": "Swing Cocktail",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "time": "20:15",
-   "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1224318/Swing-Cocktail.html",
-   "category": "dance",
-   "place": "Arch Bar"
   },
   {
    "type": "event",
@@ -806,10 +479,60 @@
    "type": "exhibition",
    "title": "Lichterzauber Weiertal",
    "start": "2026-11-12",
-   "end": "2026-11-14",
+   "end": "2026-11-19",
    "time": null,
    "venue": "galerie-weiertal",
    "url": "https://www.coucoumagazin.ch/de/kalender/1234285/Lichterzauber-Weiertal.html",
+   "ongoing": true
+  },
+  {
+   "type": "exhibition",
+   "title": "Next Relations – Zukunft Gestalten",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "time": null,
+   "venue": "gewerbemuseum",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1209451/Next-Relations-Zukunft-Gestalten.html",
+   "ongoing": true
+  },
+  {
+   "type": "exhibition",
+   "title": "Rebecca Solari",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "time": null,
+   "venue": "oxyd",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1084797/Rebecca-Solari.html",
+   "ongoing": true
+  },
+  {
+   "type": "exhibition",
+   "title": "Spiegeleien",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "time": null,
+   "venue": "technorama",
+   "url": "https://www.coucoumagazin.ch/de/kalender/28313/Spiegeleien.html",
+   "ongoing": true
+  },
+  {
+   "type": "exhibition",
+   "title": "Universum der tickenden Handwerkskunst – die Sammlung Konrad Kellenberger",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "time": null,
+   "venue": "uhrenmuseum",
+   "url": "https://www.coucoumagazin.ch/de/kalender/683741/Universum-der-tickenden-Handwerkskunst-die-Sammlung-Konrad-Kellenberger.html",
+   "ongoing": true
+  },
+  {
+   "type": "exhibition",
+   "title": "Zeit der kleinen Uhren – die Sammlung Oscar Schwank",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "time": null,
+   "venue": "uhrenmuseum",
+   "url": "https://www.coucoumagazin.ch/de/kalender/683742/Zeit-der-kleinen-Uhren-die-Sammlung-Oscar-Schwank.html",
    "ongoing": true
   },
   {
@@ -821,6 +544,82 @@
    "venue": "other",
    "url": "https://www.coucoumagazin.ch/de/kalender/1242814/Geschlossene-Gesellschaft.html",
    "place": "Albani"
+  },
+  {
+   "type": "event",
+   "title": "B.ARBIE in Not",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "09:00",
+   "venue": "other",
+   "url": "https://www.cityquest-games.de",
+   "place": "Stadtkirche"
+  },
+  {
+   "type": "event",
+   "title": "Harry P.Otter und die Zauberprüfung",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "09:00",
+   "venue": "other",
+   "url": "https://www.cityquest-games.de",
+   "place": "Stadtkirche"
+  },
+  {
+   "type": "event",
+   "title": "Kunst Museum – Beim Stadthaus",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "10:00",
+   "venue": "kmw-stadthaus",
+   "url": "https://kmw.ch"
+  },
+  {
+   "type": "event",
+   "title": "Kunst Museum – Reinhart am Stadtgarten",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "10:00",
+   "venue": "kmw-reinhart",
+   "url": "https://kmw.ch"
+  },
+  {
+   "type": "event",
+   "title": "Kunst Museum – Villa Flora",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "10:00",
+   "venue": "kmw-flora",
+   "url": "https://kmw.ch"
+  },
+  {
+   "type": "event",
+   "title": "MeetByChance - Singles treffen «zufällig» Singles",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "10:00",
+   "venue": "other",
+   "url": "https://waslauft.in/winterthur",
+   "place": "Altstadt"
+  },
+  {
+   "type": "event",
+   "title": "Naturmuseum Winterthur",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "10:00",
+   "venue": "naturmuseum",
+   "url": "https://naturmuseum.ch"
+  },
+  {
+   "type": "event",
+   "title": "\"Darf ich bitten\" Tanznachmittag für alle",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "14:00",
+   "venue": "other",
+   "url": "https://waslauft.in/winterthur",
+   "place": "Freizeitanlage Kanzleistrasse"
   },
   {
    "type": "event",
@@ -879,8 +678,17 @@
    "end": "2026-11-12",
    "time": "18:00",
    "venue": "theater-winterthur",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242802/Offene-Werkstatt.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243488/Offene-Werkstatt.html",
    "category": "theater"
+  },
+  {
+   "type": "event",
+   "title": "Podium 30 Jahre Orang-Utan-Schutz",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "18:30",
+   "venue": "alte-kaserne",
+   "url": "https://altekaserne.ch"
   },
   {
    "type": "event",
@@ -943,6 +751,16 @@
   },
   {
    "type": "event",
+   "title": "Pintscher & Brahms",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "19:30",
+   "venue": "other",
+   "url": "https://stadthaus.winterthur.ch",
+   "place": "Stadthaus"
+  },
+  {
+   "type": "event",
    "title": "Textstörung: Poetry Slam x Mental Health im Lok.al!",
    "start": "2026-11-12",
    "end": "2026-11-12",
@@ -964,6 +782,16 @@
    "subtitle": "Timing",
    "description": "Zusatzshow am SA 20. JUN, 17 Uhr Charles Nguela, Gewinner der beiden Swiss Comedy Awards 2022 – bester Comedy Act und Publikumsliebling kommt gleich für zwei Vorstellungen zurück nach Winterthur. Im Gepäck…",
    "status": "Ausverkauft"
+  },
+  {
+   "type": "event",
+   "title": "Comedy Night",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "20:00",
+   "venue": "other",
+   "url": "https://waslauft.in/winterthur",
+   "place": "Labüsch Bar"
   },
   {
    "type": "show",
@@ -1015,7 +843,7 @@
    "end": "2026-11-13",
    "time": "12:15",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242506/Heimsuchung-Eine-Jahrhundertgeschichte.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243192/Heimsuchung-Eine-Jahrhundertgeschichte.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -1037,7 +865,7 @@
    "end": "2026-11-13",
    "time": "16:00",
    "venue": "theater-winterthur",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242790/offene-Kinderwerkstatt.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243476/offene-Kinderwerkstatt.html",
    "category": "theater"
   },
   {
@@ -1268,7 +1096,7 @@
    "end": "2026-11-13",
    "time": "20:15",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242502/Orwell-225.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243188/Orwell-225.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -1338,7 +1166,7 @@
    "type": "exhibition",
    "title": "November-Ausstellung des Kunstkollektiv EchtPunkt",
    "start": "2026-11-14",
-   "end": "2026-11-18",
+   "end": "2026-11-19",
    "time": null,
    "venue": "other",
    "url": "https://www.coucoumagazin.ch/de/kalender/1231045/November-Ausstellung-des-Kunstkollektiv-EchtPunkt.html",
@@ -1444,7 +1272,7 @@
    "end": "2026-11-14",
    "time": "18:00",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242527/La-vita-da-grandi-Das-Leben-als-Erwachsene.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243213/La-vita-da-grandi-Das-Leben-als-Erwachsene.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -1627,7 +1455,7 @@
    "end": "2026-11-14",
    "time": "20:15",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242507/Heimsuchung-Eine-Jahrhundertgeschichte.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243193/Heimsuchung-Eine-Jahrhundertgeschichte.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -1731,7 +1559,7 @@
    "end": "2026-11-15",
    "time": "10:00",
    "venue": "theater-winterthur",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242803/Offene-Werkstatt.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243489/Offene-Werkstatt.html",
    "category": "theater"
   },
   {
@@ -1772,7 +1600,7 @@
    "end": "2026-11-15",
    "time": "11:00",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242503/Orwell-225.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243189/Orwell-225.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -2049,7 +1877,7 @@
    "end": "2026-11-16",
    "time": "18:00",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242504/Orwell-225.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243190/Orwell-225.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -2177,7 +2005,7 @@
    "end": "2026-11-17",
    "time": "17:45",
    "venue": "other",
-   "url": "https://www.coucoumagazin.ch/de/kalender/1242508/Heimsuchung-Eine-Jahrhundertgeschichte.html",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243194/Heimsuchung-Eine-Jahrhundertgeschichte.html",
    "category": "film",
    "place": "Kino Cameo"
   },
@@ -2461,6 +2289,152 @@
   },
   {
    "type": "event",
+   "title": "Kerzenziehen",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": null,
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1241367/Kerzenziehen.html",
+   "place": "GZ Bahnhof Töss"
+  },
+  {
+   "type": "show",
+   "title": "Grrrls",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "10:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1186011/Grrrls.html",
+   "category": "theater",
+   "place": "Theater Kanton Zürich Winterthur Grüze"
+  },
+  {
+   "type": "show",
+   "title": "Grrrls",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "14:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1186012/Grrrls.html",
+   "category": "theater",
+   "place": "Theater Kanton Zürich Winterthur Grüze"
+  },
+  {
+   "type": "show",
+   "title": "Bar und Konzerte, Soybomb, Pferd",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "17:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1198691/Bar-und-Konzerte-Soybomb-Pferd.html",
+   "category": "music",
+   "place": "Kraftfeld"
+  },
+  {
+   "type": "show",
+   "title": "From Inside Out – Die Architektur von Peter Zumthor / 3D-Vorstellung",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "17:45",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1226360/From-Inside-Out-Die-Architektur-von-Peter-Zumthor-3D-Vorstellung.html",
+   "category": "film",
+   "place": "Kino Cameo"
+  },
+  {
+   "type": "event",
+   "title": "Lichterzauber Weiertal – Meet the Artist",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "18:00",
+   "venue": "galerie-weiertal",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1234705/Lichterzauber-Weiertal-Meet-the-Artist.html"
+  },
+  {
+   "type": "show",
+   "title": "Offene Werkstatt",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "18:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1243490/Offene-Werkstatt.html",
+   "category": "theater"
+  },
+  {
+   "type": "event",
+   "title": "Der Feind hat die Nachhaltigkeit gekapert",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "18:30",
+   "venue": "gewerbemuseum",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1227230/Der-Feind-hat-die-Nachhaltigkeit-gekapert.html",
+   "category": "talk"
+  },
+  {
+   "type": "event",
+   "title": "Lesung mit Stefan Kutzenberger",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "18:30",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1237436/Lesung-mit-Stefan-Kutzenberger.html",
+   "category": "talk",
+   "place": "Villa Sträuli"
+  },
+  {
+   "type": "event",
+   "title": "Lesung: Stefan Kutzenberger",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "18:30",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1236978/Lesung-Stefan-Kutzenberger.html",
+   "category": "talk",
+   "place": "Villa Sträuli"
+  },
+  {
+   "type": "event",
+   "title": "Vortragsstunde - Klavier",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "18:30",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1239976/Vortragsstunde-Klavier.html",
+   "category": "talk",
+   "place": "Konservatorium"
+  },
+  {
+   "type": "event",
+   "title": "Gemütliches Jassturnier",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "19:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1126155/Gemuetliches-Jassturnier.html",
+   "place": "Giesserei Hegi, Gemeinschaftsraum"
+  },
+  {
+   "type": "event",
+   "title": "Gemütliches Jassturnier",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "19:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1241826/Gemuetliches-Jassturnier.html",
+   "place": "Giesserei Hegi, Gemeinschaftsraum"
+  },
+  {
+   "type": "event",
+   "title": "Karaoke",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "19:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1232865/Karaoke.html",
+   "place": "Albani"
+  },
+  {
+   "type": "event",
    "title": "Karaoke im Lok.al!",
    "start": "2026-11-19",
    "end": "2026-11-19",
@@ -2468,6 +2442,16 @@
    "venue": "lokal",
    "url": "https://lok.al/events/karaoke-im-lok-al-10/",
    "description": "Einmal im Monat wird das Lok.al zur Bühne für heimliche Popstars, Duschsängerinnen und Luftgitarren-Virtuosen. Beim Karaoke im Lok.al zählt nicht die Tonlage – sondern der [...]"
+  },
+  {
+   "type": "event",
+   "title": "Queer Treff",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "19:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1232992/Queer-Treff.html",
+   "place": "wilsch - queer Winterthur"
   },
   {
    "type": "show",
@@ -2484,6 +2468,28 @@
   },
   {
    "type": "show",
+   "title": "The Veils NZ",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "19:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1061491/The-Veils-NZ.html",
+   "category": "music",
+   "place": "Salzhaus"
+  },
+  {
+   "type": "show",
+   "title": "Moët Liechti – Klassik und Poetry Slam",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "19:30",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1233144/Moet-Liechti-Klassik-und-Poetry-Slam.html",
+   "category": "music",
+   "place": "Stadthaus"
+  },
+  {
+   "type": "show",
    "title": "Christian Jott Jenny & das Staatsorchester",
    "start": "2026-11-19",
    "end": "2026-11-19",
@@ -2493,6 +2499,28 @@
    "category": "music",
    "subtitle": "Presidential Suite",
    "description": "Christian Jott Jenny & das Staatsorchester präsentieren «Presidential Suite» – eine abendfüllende Musik-Satire. Der Gemeinde-Tenor Christian Jott Jenny pickt Perlen des internationalen Liedguts und parliert über innere u"
+  },
+  {
+   "type": "show",
+   "title": "Imagine Peace / Gespräch mit Fabian Chiquet (Regie)",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "20:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1224933/Imagine-Peace-Gespraech-mit-Fabian-Chiquet-Regie.html",
+   "category": "film",
+   "place": "Kino Cameo"
+  },
+  {
+   "type": "show",
+   "title": "Science meets Magic",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "20:00",
+   "venue": "other",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1237419/Science-meets-Magic.html",
+   "category": "theater",
+   "place": "KOPFBAU Eventlocation"
   },
   {
    "type": "show",
@@ -2506,6 +2534,16 @@
    "subtitle": "Eigenproduktion – Von Zsuzsa Bánk",
    "status": "Ausverkauft",
    "applaus": true
+  },
+  {
+   "type": "show",
+   "title": "alles ist gross",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "20:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.coucoumagazin.ch/de/kalender/1228062/alles-ist-gross.html",
+   "category": "theater"
   },
   {
    "type": "event",
@@ -2629,6 +2667,16 @@
    "url": "https://stadt.winterthur.ch/veranstaltung/muenzmeisters-leben"
   },
   {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
    "type": "event",
    "title": "Sebastian Henn - Röstibeef",
    "start": "2026-11-21",
@@ -2686,6 +2734,16 @@
   },
   {
    "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": "11:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
    "title": "Schellen-Ursli",
    "start": "2026-11-22",
    "end": "2026-11-22",
@@ -2709,6 +2767,16 @@
    "subtitle": "Ein Musical für Klein und Gross",
    "description": "«Hoch oben in den Bergen, weit von hier, da wohnt ein Büblein so wie ihr.» Mit diesen zauberhaften Worten beginnt der Schweizer Kinderbuch-Klassiker von Selina Chönz und Alois Carigiet. Jetzt erobert «Schellen-Ursli»…",
    "status": "Letzte Plätze"
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": "15:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -2763,12 +2831,14 @@
   {
    "type": "show",
    "category": "theater",
-   "title": "Familie Flöz: Dr. Nest",
+   "title": "Familie Flöz «Dr. Nest»",
    "start": "2026-11-25",
    "end": "2026-11-25",
    "time": "19:30",
    "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/",
+   "url": "https://applaus-winterthur.ch/vorstellung/familie-floez-dr-nest/",
+   "subtitle": "Maskentheater-Performance ohne Worte",
+   "description": "Ein Stück über die Zerbrechlichkeit, die Beweglichkeit und die schöpferische Kraft der menschlichen Psyche.",
    "applaus": true
   },
   {
@@ -2826,16 +2896,6 @@
    "subtitle": "Ein kulinarischer Abend für Rätselfans",
    "description": "Beim Escape Dinner verbinden sich gehobene Kulinarik und spannende Rätsel zu einem genussvollen und interaktiven Abend. Dich erwartet ein feiner Apéro, danach bist du sofort gefragt: Mit logischem Denken, Teamarbeit…",
    "status": "Ausverkauft"
-  },
-  {
-   "type": "show",
-   "category": "theater",
-   "title": "Familie Flöz: Dr. Nest",
-   "start": "2026-11-26",
-   "end": "2026-11-26",
-   "time": "19:30",
-   "venue": "theater-winterthur",
-   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -2910,6 +2970,16 @@
   },
   {
    "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
    "category": "theater",
    "title": "Der Kirschgarten",
    "start": "2026-11-28",
@@ -2963,6 +3033,26 @@
    "time": "10:30",
    "venue": "naturmuseum",
    "url": "https://stadt.winterthur.ch/veranstaltung/kuratorinnencafe-eiergeschichten-x-aus-165000-objekten"
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": "11:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": "15:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -3101,6 +3191,16 @@
    "url": "https://stadt.winterthur.ch/veranstaltung/verkaufsausstellung-chante-etan-lakota-cheyenne-crow-taeglich-von-1100-2300-bis-zum-13-dezember-2026"
   },
   {
+   "type": "event",
+   "title": "Karaoke im Lok.al!",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "time": "19:00",
+   "venue": "lokal",
+   "url": "https://lok.al/events/karaoke-im-lok-al-11/",
+   "description": "Einmal im Monat wird das Lok.al zur Bühne für heimliche Popstars, Duschsängerinnen und Luftgitarren-Virtuosen. Beim Karaoke im Lok.al zählt nicht die Tonlage – sondern der [...]"
+  },
+  {
    "type": "show",
    "title": "Stille Kracht 2026",
    "start": "2026-12-03",
@@ -3200,6 +3300,16 @@
   },
   {
    "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
    "category": "theater",
    "title": "Der Kirschgarten",
    "start": "2026-12-05",
@@ -3246,6 +3356,26 @@
    "category": "comedy",
    "subtitle": "Showtime!",
    "description": "(FAST) OHNE WORTE #Comedy #UnglaublichLustig Starbugs Comedy tun es schon wieder: Fabian Berger, Wassilis Reigel und Martin Burtscher zünden mit «Showtime!» ein wortloses Feuerwerk der Comedy – inszeniert von Nadja Siege"
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "11:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "15:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -3449,6 +3579,15 @@
    "status": "Ausverkauft"
   },
   {
+   "type": "event",
+   "title": "Laura Lüssi - Art & Stigma",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "17:30",
+   "venue": "alte-kaserne",
+   "url": "https://stadt.winterthur.ch/veranstaltung/laura-luessi-art-stigma"
+  },
+  {
    "type": "show",
    "title": "Stille Kracht 2026",
    "start": "2026-12-10",
@@ -3579,6 +3718,16 @@
   },
   {
    "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "17:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
+   "type": "show",
    "category": "music",
    "title": "Zwillings-Abenteuer!",
    "start": "2026-12-12",
@@ -3627,6 +3776,16 @@
    "description": "Hier weiterlesen oder doch kurz Whatsapp checken? Täglich treffen wir 35’000 Entscheidungen. Kein Wunder sind wir so gestresst. Hängt unser Glück nicht von unseren Entscheidungen ab? Und noch krasser: Bei Volksabstimmung"
   },
   {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": "11:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
+  },
+  {
    "type": "event",
    "title": "Verkaufsausstellung Chante eta'n - Lakota | Cheyenne | Crow: Täglich von 11.00 - 23.00 bis zum 13. Dezember 2026",
    "start": "2026-12-13",
@@ -3647,6 +3806,16 @@
    "subtitle": "Süsser die Brüder nie klingen - Die neue Ass-Dur Weihnachtsshow",
    "description": "Wenn die ersten Lichterketten blinken, die Gänse noch ahnungslos durch die Strassen watscheln und es überall langsam nach Glühwein und Spekulatius duftet – dann ist es soweit: Ass-Dur feiert Weihnachten. Und zwar so…",
    "status": "Letzte Plätze"
+  },
+  {
+   "type": "show",
+   "category": "kids",
+   "title": "Das Dschungel­buch",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": "15:00",
+   "venue": "theater-winterthur",
+   "url": "https://www.theaterwinterthur.ch/"
   },
   {
    "type": "show",
@@ -3707,15 +3876,6 @@
    "subtitle": "Sprechstunde",
    "description": "Das Gesundheitswesen kränkelt. Barbara Hutzenlaub kann helfen! Nach ihrem Blitz-Studium findet sie zusammen mit ihrer Sprechstundenhilfe Coco Chantal für jede Lösung das passende Problem. Sie bietet Gruppen-Therapien für",
    "status": "Derniere"
-  },
-  {
-   "type": "event",
-   "title": "Comic Labor - Zeichenspiele",
-   "start": "2026-12-16",
-   "end": "2026-12-16",
-   "time": "19:30",
-   "venue": "alte-kaserne",
-   "url": "https://stadt.winterthur.ch/veranstaltung/comic-labor-zeichenspiele"
   },
   {
    "type": "event",
@@ -3836,7 +3996,8 @@
    "url": "https://www.casinotheater.ch/spielplan/produktion/schneewittli/",
    "category": "kids",
    "subtitle": "Das Familienmärchen mit Herz und Biss",
-   "description": "«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin k"
+   "description": "«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin k",
+   "status": "Letzte Plätze"
   },
   {
    "type": "show",
@@ -4109,6 +4270,19 @@
    "description": "Anfang Jahr blickt der Bundesordner wie immer satirisch auf die Schlagzeilen, Aufreger und Absurditäten der letzten zwölf Monate zurück – und bringt dabei Licht in die Finsternis. Dieses Mal geht…"
   },
   {
+   "type": "show",
+   "category": "music",
+   "title": "und so blybt no sys lied…»",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/und-so-blybt-no-sys-lied/",
+   "subtitle": "Schweizer Liedermacher*innen erinnern | zu Gast im Zimmer-Theater «…",
+   "description": "Bekannten und die weniger bekannten Liedermacher*innen, die unser Land singend geprägt haben – neu interpretiert mit Schwyzerörgeli, Kontrabass und...",
+   "applaus": true
+  },
+  {
    "type": "event",
    "title": "Intime Revolution",
    "start": "2027-01-10",
@@ -4214,6 +4388,19 @@
   },
   {
    "type": "show",
+   "category": "theater",
+   "title": "ARENDT - Denken in finsteren Zeiten",
+   "start": "2027-01-15",
+   "end": "2027-01-15",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/arendt-denken-in-finsteren-zeiten/",
+   "subtitle": "von Rhea Leman",
+   "description": "Ein hellsichtiges Psychogramm und eine surreale Reise in die persönliche und kollektive Erinnerung. Zum 50. Todestag von Hannah Arendt.",
+   "applaus": true
+  },
+  {
+   "type": "show",
    "title": "Bundesordner",
    "start": "2027-01-15",
    "end": "2027-01-15",
@@ -4251,6 +4438,19 @@
   },
   {
    "type": "show",
+   "category": "theater",
+   "title": "ARENDT - Denken in finsteren Zeiten",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/arendt-denken-in-finsteren-zeiten/",
+   "subtitle": "von Rhea Leman",
+   "description": "Ein hellsichtiges Psychogramm und eine surreale Reise in die persönliche und kollektive Erinnerung. Zum 50. Todestag von Hannah Arendt.",
+   "applaus": true
+  },
+  {
+   "type": "show",
    "title": "Bundesordner",
    "start": "2027-01-16",
    "end": "2027-01-16",
@@ -4273,6 +4473,19 @@
   },
   {
    "type": "show",
+   "category": "theater",
+   "title": "ARENDT - Denken in finsteren Zeiten",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/arendt-denken-in-finsteren-zeiten/",
+   "subtitle": "von Rhea Leman",
+   "description": "Ein hellsichtiges Psychogramm und eine surreale Reise in die persönliche und kollektive Erinnerung. Zum 50. Todestag von Hannah Arendt.",
+   "applaus": true
+  },
+  {
+   "type": "show",
    "title": "Bundesordner",
    "start": "2027-01-17",
    "end": "2027-01-17",
@@ -4285,19 +4498,6 @@
   },
   {
    "type": "show",
-   "category": "theater",
-   "title": "Vrenelis Gärtli",
-   "start": "2027-01-17",
-   "end": "2027-01-17",
-   "time": "17:30",
-   "venue": "kellertheater",
-   "url": "https://applaus-winterthur.ch/vorstellung/vrenelis-gaertli/",
-   "subtitle": "Eigenproduktion nach dem gleichnamigen Roman von Tim Krohn",
-   "description": "Was bedeutet Heimat in einer Welt, die immer digitaler, schneller und anonymer wird? Wo findet man Geborgenheit, wenn reale Begegnungen seltener werden?",
-   "applaus": true
-  },
-  {
-   "type": "show",
    "title": "vrenelis gärtli",
    "start": "2027-01-17",
    "end": "2027-01-17",
@@ -4305,7 +4505,8 @@
    "venue": "kellertheater",
    "url": "https://keller.theater/events/vrenelis-gaertli/",
    "category": "theater",
-   "subtitle": "Wiederaufnahme Eigenproduktion – Nach dem gleichnamigen Roman von Tim Krohn"
+   "subtitle": "Wiederaufnahme Eigenproduktion – Nach dem gleichnamigen Roman von Tim Krohn",
+   "applaus": true
   },
   {
    "type": "event",
@@ -4315,6 +4516,19 @@
    "time": "19:30",
    "venue": "alte-kaserne",
    "url": "https://stadt.winterthur.ch/veranstaltung/bistro-international-1"
+  },
+  {
+   "type": "show",
+   "category": "theater",
+   "title": "ARENDT - Denken in finsteren Zeiten",
+   "start": "2027-01-18",
+   "end": "2027-01-18",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/arendt-denken-in-finsteren-zeiten/",
+   "subtitle": "von Rhea Leman",
+   "description": "Ein hellsichtiges Psychogramm und eine surreale Reise in die persönliche und kollektive Erinnerung. Zum 50. Todestag von Hannah Arendt.",
+   "applaus": true
   },
   {
    "type": "event",
@@ -4751,6 +4965,16 @@
    "description": "Comedy ganz in Weiss – mit schwarzem Humor und altklugen Weisheiten Helga Schneider teilt noch einmal kräftig aus: Mit ihrer Frauenpower, Stimmgewalt und Bühnenpräsenz bringt sie ihr Publikum in ihrem 6. Soloprogramm wie"
   },
   {
+   "type": "event",
+   "title": "«frauen zurück an den herd?»",
+   "start": "2027-02-03",
+   "end": "2027-02-03",
+   "time": "19:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/frauen-zurueck-an-den-herd/",
+   "subtitle": "KULTHURPULS - Gespräche mit Winti"
+  },
+  {
    "type": "show",
    "title": "Helga Schneider",
    "start": "2027-02-03",
@@ -5010,6 +5234,32 @@
   {
    "type": "show",
    "category": "dance",
+   "title": "Verlustanzeige",
+   "start": "2027-02-19",
+   "end": "2027-02-19",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/verlustanzeige/",
+   "subtitle": "Revue vom Nimmerwiedersehen",
+   "description": "Sie sprechen, sie spielen, sie singen – voller Rücksicht auf Verluste. Ein findiger Abend voller literarisch-musikalischer Trouvaillen.",
+   "applaus": true
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "Verlustanzeige",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "time": "18:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/verlustanzeige/",
+   "subtitle": "Revue vom Nimmerwiedersehen",
+   "description": "Sie sprechen, sie spielen, sie singen – voller Rücksicht auf Verluste. Ein findiger Abend voller literarisch-musikalischer Trouvaillen.",
+   "applaus": true
+  },
+  {
+   "type": "show",
+   "category": "dance",
    "title": "Junior Ballett Zürich: Art Matters",
    "start": "2027-02-20",
    "end": "2027-02-20",
@@ -5046,6 +5296,19 @@
    "status": "Clubangebot"
   },
   {
+   "type": "show",
+   "category": "dance",
+   "title": "Verlustanzeige",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/verlustanzeige/",
+   "subtitle": "Revue vom Nimmerwiedersehen",
+   "description": "Sie sprechen, sie spielen, sie singen – voller Rücksicht auf Verluste. Ein findiger Abend voller literarisch-musikalischer Trouvaillen.",
+   "applaus": true
+  },
+  {
    "type": "event",
    "title": "Intime Revolution",
    "start": "2027-02-21",
@@ -5064,6 +5327,19 @@
    "url": "https://keller.theater/events/intime-revolution/",
    "category": "theater",
    "subtitle": "Gastspiel im Bistro Alte Kaserne – Von Anna Papst & Mats Staub"
+  },
+  {
+   "type": "show",
+   "category": "dance",
+   "title": "Verlustanzeige",
+   "start": "2027-02-22",
+   "end": "2027-02-22",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/verlustanzeige/",
+   "subtitle": "Revue vom Nimmerwiedersehen",
+   "description": "Sie sprechen, sie spielen, sie singen – voller Rücksicht auf Verluste. Ein findiger Abend voller literarisch-musikalischer Trouvaillen.",
+   "applaus": true
   },
   {
    "type": "event",
@@ -5784,6 +6060,19 @@
    "description": "Zurück auf der Casinotheater-Bühne mit neuer Show Diese neue, ämäzing OROPAX-Show ist alles – ausser irdisch! Es ist Zeit, Alter, für das neue Zeitalter des Lachens. Das KARTON-AGE. Eine Showzeit in doppelter…"
   },
   {
+   "type": "show",
+   "category": "theater",
+   "title": "Ich vermisse mich",
+   "start": "2027-04-09",
+   "end": "2027-04-09",
+   "time": "20:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/ich-vermisse-mich/",
+   "subtitle": "Mona Petri und Katja Campanile",
+   "description": "Eine mit der Sprache des Flamencos getanzte Annäherung an das Leben mit Demenz, eingebettet in Texte aus dem Roman „Still Alice“.",
+   "applaus": true
+  },
+  {
    "type": "event",
    "title": "Open day (2nd & 4th Saturday of the month)",
    "start": "2027-04-10",
@@ -5830,6 +6119,29 @@
    "description": "«Hoch oben in den Bergen, weit von hier, da wohnt ein Büblein so wie ihr.» Mit diesen zauberhaften Worten beginnt der Schweizer Kinderbuch-Klassiker von Selina Chönz und Alois Carigiet. Jetzt erobert «Schellen-Ursli»…"
   },
   {
+   "type": "show",
+   "category": "theater",
+   "title": "Ich vermisse mich",
+   "start": "2027-04-11",
+   "end": "2027-04-11",
+   "time": "17:00",
+   "venue": "zimmer-theater-ariane",
+   "url": "https://applaus-winterthur.ch/vorstellung/ich-vermisse-mich/",
+   "subtitle": "Mona Petri und Katja Campanile",
+   "description": "Eine mit der Sprache des Flamencos getanzte Annäherung an das Leben mit Demenz, eingebettet in Texte aus dem Roman „Still Alice“.",
+   "applaus": true
+  },
+  {
+   "type": "event",
+   "title": "«politik – das bringt doch nichts!»",
+   "start": "2027-04-11",
+   "end": "2027-04-11",
+   "time": "19:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/politik-das-bringt-doch-nichts/",
+   "subtitle": "KULTHURPULS - Gespräche mit Winti"
+  },
+  {
    "type": "event",
    "title": "Bistro International",
    "start": "2027-04-12",
@@ -5849,7 +6161,8 @@
    "category": "comedy",
    "subtitle": "mannomann",
    "description": "Der Mann, ein sonderbares Wesen. Es gibt Männer, die fahren Auto; es gibt Männer, die arbeiten im Büro; es gibt Männer, die sammeln allerlei Schrauben in kleinen Schublädchen. Und dann gibt es…",
-   "status": "Clubangebot"
+   "status": "Clubangebot",
+   "applaus": true
   },
   {
    "type": "show",
@@ -6088,7 +6401,8 @@
    "category": "music",
    "subtitle": "20 Jahre Solo. Jetzt wird's voll auf der Bühne. Ein Jubiläumsprogramm.",
    "description": "PREMIERE Über zwei Jahrzehnte hat Uta Köbernick bewiesen, dass eine Frau, ein Mikrofon und ein kluger Kopf völlig ausreichen. Zum Jubiläum gönnt sie sich trotzdem Verstärkung: Mit Thierry Kuster, Anna Vogt, Roman Naef,…",
-   "status": "Clubangebot"
+   "status": "Clubangebot",
+   "applaus": true
   },
   {
    "type": "show",
@@ -6326,6 +6640,17 @@
   },
   {
    "type": "show",
+   "title": "zinnober!",
+   "start": "2027-05-20",
+   "end": "2027-05-20",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/zinnober/",
+   "category": "theater",
+   "subtitle": "Gastspiel – Nach E.T.A. Hoffmanns «Klein Zaches genannt Zinnober»"
+  },
+  {
+   "type": "show",
    "title": "Boudoir Bizarre",
    "start": "2027-05-21",
    "end": "2027-05-21",
@@ -6339,6 +6664,17 @@
    "applaus": true
   },
   {
+   "type": "show",
+   "title": "zinnober!",
+   "start": "2027-05-21",
+   "end": "2027-05-21",
+   "time": "20:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/zinnober/",
+   "category": "theater",
+   "subtitle": "Gastspiel – Nach E.T.A. Hoffmanns «Klein Zaches genannt Zinnober»"
+  },
+  {
    "type": "event",
    "title": "Open day (2nd & 4th Saturday of the month)",
    "start": "2027-05-22",
@@ -6347,6 +6683,27 @@
    "venue": "dampfzentrum",
    "url": "https://www.dampfzentrum.ch/veranstaltungen/agenda",
    "subtitle": "13:00–16:00 · regular opening hours, special events on the agenda page"
+  },
+  {
+   "type": "show",
+   "title": "zinnober!",
+   "start": "2027-05-23",
+   "end": "2027-05-23",
+   "time": "17:30",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/zinnober/",
+   "category": "theater",
+   "subtitle": "Gastspiel – Nach E.T.A. Hoffmanns «Klein Zaches genannt Zinnober»"
+  },
+  {
+   "type": "event",
+   "title": "«winti, wo können wir noch wohnen?»",
+   "start": "2027-05-25",
+   "end": "2027-05-25",
+   "time": "19:00",
+   "venue": "kellertheater",
+   "url": "https://keller.theater/events/winti-wo-koennen-wir-noch-wohnen/",
+   "subtitle": "KULTHURPULS - Gespräche mit Winti"
   },
   {
    "type": "show",
